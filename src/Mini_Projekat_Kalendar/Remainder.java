@@ -163,7 +163,7 @@ public class Remainder {
 				return true;
 			}
 		}
-		System.out.print("Nepravilan unos.\nMolimo unesite ponovo.");
+		System.out.print("Nepravilan unos.\nMolimo unesite ponovo:");
 			
 		return false;
 	}

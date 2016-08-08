@@ -49,7 +49,7 @@ public class Kalendar {
 			case 1:{
 
 				
-				System.out.println("Unesi godinu");
+				System.out.println("Unesi godinu:");
 				
 				//Metoda checkInput() provjerava jel godina unijeta kao cijeli broj
 				int godina = checkInput();
