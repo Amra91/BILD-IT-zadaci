@@ -1,4 +1,1 @@
-Napišite program koji æe brojati broj karaktera, 
-rijeèi i linija teksta u nekom fileu. 
-Rijeèi trebaju biti odvojene jednim spaceom. 
-Ime file proslijediti kao argument u vaš program.
+Amra Mah
