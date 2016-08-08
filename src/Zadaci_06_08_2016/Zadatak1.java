@@ -76,7 +76,6 @@ public class Zadatak1 {
 		}while(status != true);
 	
 		return unos;
-	
 	}
 	
 	// metoda za izracunavanje buduce vrijednosti investicije 
@@ -89,7 +88,4 @@ public class Zadatak1 {
 		return (investicija* Math.pow ((1+a),(godine*12)));
 			
 	}
-	
-	
-
 }
