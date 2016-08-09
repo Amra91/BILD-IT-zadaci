@@ -18,7 +18,6 @@ public class Remainder {
 	public Remainder(){
 		
 	}
-	
 	public Remainder(String ime,int dan,File file,int godina,int mjesec) {
 		this.ime_podsjetnika = ime;
 		this.dan = dan;
@@ -143,11 +142,8 @@ public class Remainder {
 		for(int i=0; i<list.size(); i++){
 			if(list.get(i).getIme_podsjetnika().equals(str)){
 				System.out.println("Ime vec postoji.\nUkucajte ponovo.");
-				
-				return true;
-				
+				return true;	
 			}
-			
 		}
 		return false;
 	}

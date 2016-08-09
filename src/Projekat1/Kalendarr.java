@@ -6,6 +6,7 @@ package Projekat1;
 	import java.util.InputMismatchException;
 	import java.util.Scanner;
 	import java.io.File;
+	import java.io.FileNotFoundException;
 
 	/*
 	 * OPIS PROGRAMA
@@ -21,12 +22,14 @@ package Projekat1;
 	 */
 
 
-	public class Kalendarr {
+	
+	
 
+	public class Kalendarr {
 		static Scanner in = new Scanner(System.in);
 		
 		public static void main(String[] args) throws IOException {
-		
+			
 			
 			//kreiranje objekta klase Remainder
 			Remainder remainder = new Remainder();
@@ -41,231 +44,38 @@ package Projekat1;
 						"\nAko zelite printati podsjetnik pritisnite 2."
 						+"\nAko zelite dodati podsjetnik pritisnite 3.");
 				
+				int izbor = checkInput();
 				//switch za opcije glavnog menija
-				switch(in.nextInt()){
+				switch(izbor){
 				
-				//case 1: printa kalendar i postavlja remainder
-				//svaki podsjetnik pravi svoj fajl pod drugim imenom te ga kao takvog cita
+				//case 1: //Metoda radi tako sto pronadjemo pocetni dan za unijeti mjesec i unijetu godinu
 				case 1:{
-
-					
-					System.out.println("Unesi godinu");
-					
-					//Metoda checkInput() provjerava jel godina unijeta kao cijeli broj
-					int godina = checkInput();
-					
-					//postavljanje godine u objekat reaminder
-					remainder.setGodina(godina);
-					
-					
-					System.out.println("Unesite broj mjeseca[1...12]: ");
-					//metoda checkInputNumberOfMonth() provjerava jel unijeti mjesec validan
-					//ako se unese preko 12 ili ispod 1 ..ili ako se ne unese int tip
-				
-					int mjesec = checkInputNumberOfMonth();
-					remainder.setMjesec(mjesec);
-					
-					
-					//metoda print printKalendarHeader(mjesec, godina) printa kalendar
-					printKalendarHeader(mjesec, godina);
-					//ovdje pitamo korisnika da li zeli da postavi podsjetnik
-					System.out.println();
-					System.out.println("*****************************************");
-					System.out.println("Ako zelite postaviti podsjetnik za odredjeni dan u ovom mjesecu pritisnite 1."+
-							"\nAko zelite ponovo printati kalendar i vratiti se u pocetni meni pritisnite 0.");
-					int izbor = checkInput();
-					//ovdjeee gledaj ovo je kad hoces ostavit podsjetnik 
-					
-						if(izbor == 1){
-								System.out.println("Za koji dan zelite podsjetnik.");
-								
-								//preko metode checkInputMonth(godina, mjesec) provjeravamo
-								//da li je unijeti dan validan
-								//ako unesemo manje od 1 ili unesemo vise nego sto mjesec ima dana biti ce
-								//nepravilan unos i zahtjevamo da unesemo validan dan...
-								int dan = checkInputMonth(godina, mjesec);
-								
-								//postavljamo unijeti dan u objekat jer nam treba kasnije kod printanja datuma
-								//kada smo spremili podsjetnik itd
-								remainder.setDan(dan);
-								System.out.println("Unesite naslov podsjetnika [jedan space]");
-								String ime_podsjetnika = in.next();
-								
-								//do petlja trazi da unesemo naslov podsjetnika,,
-								//pod tim naslovom spremamo novi fajl..
-								//takodjer ovdje u if uslovu provjeravamo..
-								//ako fajl postoji trazi nam da unesemo drugo ime za fajl 
-								do{
-									//provjeravamo ime podsjetnika da li postoji u bazi
-									//preko metode checkNameOfRemainder(list, ime_podsjetnika)
-									if(remainder.checkNameOfRemainder(list, ime_podsjetnika) == true){
-									}else{
-										break;
-									}
-									ime_podsjetnika = in.next();
-								}while(true);
-								//postavljamo ime podsjetnika u objekat
-								remainder.setIme_podsjetnika(ime_podsjetnika);
-								System.out.println("Unesite sta zelite u podsjetnik [Enter + 0 prekida unos]: ");
-								System.out.println("********************************");
-								//ovdje pozivamo objektnu metodu doTheLogicOfRemainder 
-								//koja unosi text u fajl
-								remainder.doTheLogicOfRemainder(godina, dan, ime_podsjetnika,list);
-								System.out.println("********************************");
-								
-								
-								//ovdje printamo notifikaciju kada smo spremili novi podsjetnik
-								//tacan dan neke godine i nekog mjeseca dobijamo preko 
-								//metode getNameOfDay(mjesec, godina, dan)
-								
-								System.out.println("Snimljeno za: "+"\nGodina: "+remainder.getGodina()+"\nMjesec: "
-													+getNameOfMonth(remainder.getMjesec()));
-								
-								System.out.println("**************************************************");
-								int year = remainder.getGodina();
-								File file = remainder.getFile();
-								
-								//postavljamo znacajke u arrayListu
-								list.add(new Remainder(ime_podsjetnika,dan,file,year,remainder.getDan() ));
-								
+						//metoda vezana za case 1:
+						caseJedan(izbor, remainder, list);
+						break;	
 						}
-							//else blok je kada zelimo da se vratimo u glavni meni
-							else{
-								//break prekida switch i odlazimo u glavni meni
-								break;
-							}
-						
-						//ovaj break prekida switch nako pravilno unijetog podsjetnika 
-						//i odlazimo u glavni meni [break od case 1:]
-						break;
-				}//kraj prvog case 1:
-						
-						
 						
 				case 2: {
-					
 						
-						if(list.isEmpty()== true){
-							System.out.println("Nema niti jednog podsjetnika.");
-							break;
-						}
-							
-							//Printamo sve podsjetnike koji se nalaze u bazi
-							//Da bi korisnik mogao odabrati koji podsjetnik zeli da isprinta
-							System.out.println("Podsjetnici za printanje:");
-							System.out.println();
-							int count = 0;
-							for(int i=0; i<list.size(); i++){
-								System.out.print("["+list.get(i).getGodina()+"{"+list.get(i).file+"}"+"],");
-								count++;
-								if(count == 10){
-									System.out.println();
-								}
+						caseDva(izbor, list, remainder);
+						break;
+						
 							}
-							System.out.println("*********************************");
-							//Nudimo korisniku da upise ime podsjetnika koji biva isprintan u konzoli
-							
-							System.out.println("Za prikaz podsjetnika molimo unesite njegovo ime"
-									+ " samo ime bez [.txt].");
-							
-							
-							String str = in.next();
-							while(true){
-								if(remainder.checkIfNameExist(list, str) == true){
-									break;
-								}else{
-									System.out.println("Podsjetnici za printanje:");
-									System.out.println();
-									count = 0;
-									for(int i=0; i<list.size(); i++){
-										System.out.print("["+list.get(i).getGodina()+"{"+list.get(i).file+"}"+"],");
-										count++;
-										if(count == 10){
-											System.out.println();
-										}
-									}
-									System.out.println("*********************************");
-									str = in.next();
-								}
-								
-							}
-							//Objektna metoda printa trazeni od korisnika podsjetnik
-							//Prosljedjujemo ArrayListu jer u metodi pronalazimo trazeni podsjetnik
-							System.out.println("*\t\t Sadrzaj podsjetnika: \t**");
-							remainder.printRemainder(list,str);
-							System.out.println("*********************************************");
-							break;
-							
-							}//kraj case 3:
 				
 				case 3:{
-					System.out.println("Za kreiranje novog podsjetnika pritisnite 1."+
-										"\nZa izlaz na glavni meni pritisnite bilo koji drugi broj.");
-					int izbor = checkInput();
-					if(izbor == 1){
-						System.out.println("Za koju godinu zelite podsjetnik");
-						int godina = checkInput();
-						remainder.setGodina(godina);
-						System.out.println("Za koji mjesec zelite podsjetnik");
-						int mjesec = checkInputNumberOfMonth();
-						remainder.setMjesec(mjesec);
-						System.out.println("Za koji dan zelite podsjetnik.");
-						
-						//preko metode checkInputMonth(godina, mjesec) provjeravamo
-						//da li je unijeti dan validan
-						//ako unesemo manje od 1 ili unesemo vise nego sto mjesec ima dana biti ce
-						//nepravilan unos i zahtjevamo da unesemo validan dan...
-						int dan = checkInputMonth(godina, mjesec);
-						
-						
-						//postavljamo unijeti dan u objekat jer nam treba kasnije kod printanja datuma
-						//kada smo spremili podsjetnik itd
-						remainder.setDan(dan);
-						System.out.println("Unesite naslov podsjetnika[jedan space]");
-						String ime_podsjetnika = in.next();
-						
-						//do petlja trazi da unesemo naslov podsjetnika,,
-						//pod tim naslovom spremamo novi fajl..
-						//takodjer ovdje u if uslovu provjeravamo..
-						//ako fajl postoji trazi nam da unesemo drugo ime za fajl 
-						do{
-							//provjeravamo ime podsjetnika da li postoji u bazi
-							//preko metode checkNameOfRemainder(list, ime_podsjetnika)
-							if(remainder.checkNameOfRemainder(list, ime_podsjetnika) == true){
-							}else{
-								break;
-							}
-							ime_podsjetnika = in.next();
-						}while(true);
-						//postavljamo ime podsjetnika u objekat
-						remainder.setIme_podsjetnika(ime_podsjetnika);
-						System.out.println("Unesite sta zelite u podsjetnik [Enter + 0 prekida unos]: ");
-						System.out.println("********************************");
-						//ovdje pozivamo objektnu metodu doTheLogicOfRemainder 
-						//koja unosi text u fajl
-						remainder.doTheLogicOfRemainder(remainder.getGodina(), dan, ime_podsjetnika,list);
-						System.out.println("********************************");
-						
-						
-						//ovdje printamo notifikaciju kada smo spremili novi podsjetnik
-						//tacan dan neke godine i nekog mjeseca dobijamo preko 
-						//metode getNameOfDay(mjesec, godina, dan)
-						
-						System.out.println("Snimljeno za: "+"\nGodina: "+remainder.getGodina()+"\nMjesec: "
-											+getNameOfMonth(remainder.getMjesec()));
-						
-						System.out.println("**************************************************");
-						int year = remainder.getGodina();
-						File file = remainder.getFile();
-						
-						//postavljamo znacajke u arrayListu
-						list.add(new Remainder(ime_podsjetnika,dan,file,year,remainder.getDan() ));
-						
-					} //kraj if uslova za unos podsjetnika
 					
-
+					System.out.println("Za kreiranje novog podsjetnika pritisnite 1."
+										+"\nZa izlaz na glavni meni pritisnite bilo koji drugi broj.");
+					int izbor2 = checkInput();
 					
-					break; 		
+					if(izbor2 ==1)
+						//metoda za postavljanje podsjetnika
+						postavljanjePodsjetnika(list, remainder);
+					if(izbor != 1){
+						break;		//izlaz na glavni meni
+					}
+					
+					break; 			//break case 3
 				}//kraj case 3
 				
 						default : {
@@ -280,8 +90,150 @@ package Projekat1;
 		}
 		
 		//Metoda  printa kalendar
-		//Metoda radi tako sto pronadjemo pocetni dan za unijeti mjesec i unijetu godinu
 		
+		public static void caseJedan(int izbor, Remainder remainder, ArrayList<Remainder> list) throws IOException{
+			
+				System.out.println("Unesite broj mjeseca[1...12]: ");
+				//metoda checkInputNumberOfMonth() provjerava jel unijeti mjesec validan
+				//ako se unese preko 12 ili ispod 1 ..ili ako se ne unese int tip
+				
+				int mjesec = checkInputNumberOfMonth();
+				System.out.println("Unesi godinu");
+				remainder.setMjesec(mjesec);
+				//Metoda checkInput() provjerava jel godina unijeta kao cijeli broj
+				int godina = checkInput();
+				
+				//postavljanje godine u objekat reaminder
+				remainder.setGodina(godina);
+				
+				//metoda print printKalendarHeader(mjesec, godina) printa kalendar
+				printKalendarHeader(mjesec, godina);
+				//ovdje pitamo korisnika da li zeli da postavi podsjetnik
+				System.out.println();
+				System.out.println("*****************************************");
+				System.out.println("Ako zelite postaviti podsjetnik pritisnite 1."
+								
+								+"\nZa povratak u glavni izbornik pritisnite 0.");
+				int izbor2 = checkInput();
+				//ovdjeee gledaj ovo je kad hoces ostavit podsjetnik 
+				
+					if(izbor2 == 1){
+							postavljanjePodsjetnika(list, remainder);
+					}
+		}
+		//metoda za postavljanje podsjetnika
+		public static void postavljanjePodsjetnika(ArrayList<Remainder> list, Remainder remainder) throws IOException{
+			System.out.println("Za koju godinu zelite podsjetnik");
+			int godina = checkInput();
+			System.out.println("Za koji mjesec zelite podsjetnik");
+			int mjesec = checkInputNumberOfMonth();
+			System.out.println("Za koji dan zelite podsjetnik.");
+			
+			//preko metode checkInputMonth(godina, mjesec) provjeravamo
+			//da li je unijeti dan validan
+			//ako unesemo manje od 1 ili unesemo vise nego sto mjesec ima dana biti ce
+			//nepravilan unos i zahtjevamo da unesemo validan dan...
+			int dan = checkInputMonth(godina, mjesec);
+			
+			//postavljamo unijeti dan u objekat jer nam treba kasnije kod printanja datuma
+			//kada smo spremili podsjetnik itd
+			remainder.setDan(dan);
+			System.out.println("Unesite naslov podsjetnika");
+			String ime_podsjetnika = in.next();
+			
+			//do petlja trazi da unesemo naslov podsjetnika,,
+			//pod tim naslovom spremamo novi fajl..
+			//takodjer ovdje u if uslovu provjeravamo..
+			//ako fajl postoji trazi nam da unesemo drugo ime za fajl 
+			do{
+				//provjeravamo ime podsjetnika da li postoji u bazi
+				//preko metode checkNameOfRemainder(list, ime_podsjetnika)
+				if(remainder.checkNameOfRemainder(list, ime_podsjetnika) == true){
+				}else{
+					break;
+				}
+				ime_podsjetnika = in.next();
+			}while(true);
+			//postavljamo ime podsjetnika u objekat
+			remainder.setIme_podsjetnika(ime_podsjetnika);
+			System.out.println("Unesite sta zelite u podsjetnik [0 prekida unos]: ");
+			System.out.println("********************************");
+			//ovdje pozivamo objektnu metodu doTheLogicOfRemainder 
+			//koja unosi text u fajl
+			remainder.doTheLogicOfRemainder(godina, dan, ime_podsjetnika,list);
+			System.out.println("********************************");
+			
+			
+			//ovdje printamo notifikaciju kada smo spremili novi podsjetnik
+			//tacan dan neke godine i nekog mjeseca dobijamo preko 
+			//metode getNameOfDay(mjesec, godina, dan)
+			
+			System.out.println("Snimljeno za: "+"\nGodina: "+remainder.getGodina()+"\nMjesec: "
+								+getNameOfMonth(remainder.getMjesec()));
+			
+			System.out.println("**************************************************");
+			int year = remainder.getGodina();
+			File file = remainder.getFile();
+			
+			//postavljamo znacajke u arrayListu
+			list.add(new Remainder(ime_podsjetnika,dan,file,year,remainder.getDan()));
+	}
+		
+		public static void caseDva(int izbor, ArrayList<Remainder> list,Remainder remainder) throws FileNotFoundException{
+			while(true){
+			if(list.isEmpty()== true){
+				System.out.println("Nema niti jednog podsjetnika.");
+				break;
+			}
+				
+				//Printamo sve podsjetnike koji se nalaze u bazi
+				//Da bi korisnik mogao odabrati koji podsjetnik zeli da isprinta
+				System.out.println("Podsjetnici za printanje:");
+				System.out.println();
+				int count = 0;
+				for(int i=0; i<list.size(); i++){
+					System.out.print("["+list.get(i).getGodina()+"{"+list.get(i).file+"}"+"],");
+					count++;
+					if(count == 10){
+						System.out.println();
+					}
+				}
+				System.out.println("*********************************");
+				//Nudimo korisniku da upise ime podsjetnika koji biva isprintan u konzoli
+				
+				System.out.println("Za prikaz podsjetnika molimo unesite njegovo ime"
+						+ " samo ime bez [.txt].");
+				
+				
+				String str = in.next();
+				while(true){
+					if(remainder.checkIfNameExist(list, str) == true){
+						break;
+					}else{
+						System.out.println("Podsjetnici za printanje:");
+						System.out.println();
+						count = 0;
+						for(int i=0; i<list.size(); i++){
+							System.out.print("["+list.get(i).getGodina()+"{"+list.get(i).file+"}"+"],");
+							count++;
+							if(count == 10){
+								System.out.println();
+							}
+						}
+						System.out.println("*********************************");
+						str = in.next();
+					}
+					
+				}
+				//Objektna metoda printa trazeni od korisnika podsjetnik
+				//Prosljedjujemo ArrayListu jer u metodi pronalazimo trazeni podsjetnik
+				System.out.println("\t** Sadrzaj podsjetnika: \t**");
+				remainder.printRemainder(list,str);
+				System.out.println("*********************************************");
+				break;
+			}
+				
+		}
 		public static void printKalendarHeader(int mjesec, int godina){
 			System.out.println("\t"+getNameOfMonth(mjesec)+", "+godina);
 			System.out.println("__________________________________");
@@ -318,14 +270,12 @@ package Projekat1;
 		public static int prviDan (int mjesec, int godina){
 			// matematicka formula gregorijanskog kalendara za racunanje dana
 			// stavljena pretpostavka da trazimo samo prvi, datog mjeseca i date godine 
-			// pravilo uzeto od njemackog matematicara Christian Zeller za racunanje dana
-			// Mjeseci su da se broje druacije tako da je:  Mart je prvi mjesec, april je drugi, i tako dalje do februara, koji je dvanaesti mjesec.
 			
 			int a = (14-mjesec)/12;
 			int g = godina - (int)a;
 			int m = mjesec + 12*(int)a -2;
 			
-			// prvi dan se dobiva tako sto su vrijednosti: za nedelju 0, za ponedeljak 1, za utorak 2, za srijedu 3,
+			// prvi dan se dobiva tako sto su vrijednostu: za nedelju 0, za ponedeljak 1, za utorak 2, za srijedu 3,
 			// za cetvrtak 4, za petak 5, za subotu 6.
 			int dan = (1 + g + (g/4) - (g/100)+(g/400)+ ((31 *m)/12) )%7;
 			return dan;
@@ -413,7 +363,7 @@ package Projekat1;
 		
 		//metoda vraca cijeli broj i ujedno provjerava da li je unijeti broj cijeli broj
 		public static int checkInput(){
-		
+			
 			int input = 0;
 			boolean status = false;
 			do{
@@ -480,5 +430,3 @@ package Projekat1;
 			return broj;
 		}
 		}
-
-
