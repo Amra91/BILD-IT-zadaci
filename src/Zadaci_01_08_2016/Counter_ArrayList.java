@@ -12,7 +12,7 @@ public class Counter_ArrayList {
 		Scanner in = new Scanner(System.in);   			//declaring scanner object for inputs
 		
 		ArrayList<Integer> list = new ArrayList<>();	//declaring arrayList where we will store elements of array
-		System.out.println("Please enter the integer digits. [0 stops inputs]");
+		System.out.println("Please enter the integer digits [0 stops inputs]:");
 		boolean correct_input = false;
 		while(!correct_input){
 		

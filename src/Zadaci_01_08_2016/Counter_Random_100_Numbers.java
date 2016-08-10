@@ -48,7 +48,7 @@ public static void main(String[] args) {
 		//and finnaly this loop print all elements. 
 		for(int i=0; i<array.length; i++){
 			if(array[i] != -1){
-				System.out.println(array[i] +" se pojavljuje "+array_of_counter[i]);
+				System.out.println(array[i] +" se pojavljuje: "+array_of_counter[i]);
 			}
 		}
 		

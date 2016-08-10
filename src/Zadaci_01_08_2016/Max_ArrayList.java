@@ -8,8 +8,8 @@ public class Max_ArrayList {
 		// TODO Auto-generated method stub
 
 		ArrayList <Integer> list = new ArrayList <>();
-		list.add(3);
-		list.add(5);
+		list.add(-1);
+		list.add(-2);
 		
 		if (max (list)== 0)
 			//The method returns null if the list is null or if the list contains 0 elements.
@@ -22,7 +22,7 @@ public class Max_ArrayList {
 		
 		public static int max(ArrayList<Integer> list){
 			//The method finds the max integer
-			int maxInt = 0;
+			int maxInt = list.get(0);
 			for (int i = 0; i<list.size(); i++){
 				if (maxInt < list.get(i)){
 					maxInt = list.get(i);

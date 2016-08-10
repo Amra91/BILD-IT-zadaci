@@ -7,9 +7,9 @@ public class Greatest_common_divisor {
 	public static void main(String[] args) {
 	
 		Scanner in = new Scanner (System.in);
-		System.out.println("Enter first number:");
+		System.out.println("Enter first number: ");
 		int num1 = in.nextInt();
-		System.out.println("Enter second number:");
+		System.out.println("Enter second number: ");
 		int num2 = in.nextInt();
 		in.close();
 		
@@ -21,7 +21,7 @@ public class Greatest_common_divisor {
 		
 		int commonDivisor = 0;
 		
-		for (int i =1; i<=number1 && i< number2; i++){
+		for (int i =1; i<=number1 && i<= number2; i++){
 			if (number1 %i ==0 && number2%i ==0){
 				//finds common divisors
 				

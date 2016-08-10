@@ -36,7 +36,7 @@ public class Counter_vowels_and_consonants {
 		}
 		
 		
-		System.out.println("You have: "+ counter_of_vowels + " vowels in your string."+
+		System.out.println("You have: "+ counter_of_vowels + " vowels in your string.."+
 					"\nYou have: "+ counter_of_consonant +" consonants in your string.");
 	}
 
