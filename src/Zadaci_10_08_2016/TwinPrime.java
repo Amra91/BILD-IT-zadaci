@@ -14,7 +14,7 @@ public class TwinPrime {
 		int dva =0; //provjera drugog broja
 		int brojac=0; //brojac twin prime brojeva
 		
-		System.out.println("Svi twin primes brojevi do 10000:");
+		System.out.println("Svi twin primes brojevi do 10000 su: ");
 		
 		//for petlja ide do 9998 jer na zadnji broj dodaje se 2
 		for (int i=2; i<9998; i++){

@@ -21,9 +21,11 @@ public class ProvjeraSubstringa {
 		
 		//String.contains(string) metoda vraca boolean vrijednost ako string je podstring odredjenog stringa
 		if (a.contains(b)){
+			
 			System.out.println("String "+b + " je supstring " + a + " stringa.");
 		}
 		else{
+			
 			System.out.println("String "+b+ " nije supstring "+ a + " stringa.");
 		}
 		

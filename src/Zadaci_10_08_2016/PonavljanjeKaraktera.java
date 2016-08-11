@@ -21,8 +21,10 @@ public static void main(String[] args) {
 	System.out.println("Unesite string: ");
 	String str = unos.nextLine(); 		//unos stringa
 	
-	System.out.println("Unesite slovo za pretragu");
-	char ch = unos.next().charAt(0); 	//unos jednog slova 
+	System.out.println("Unesite karakter za pretragu: ");
+	//ako se unese vise od jednog karaktera uzima se u obzir samo prvi uneseni karakter
+	
+	char ch = unos.next().charAt(0); 	//unos jednog karaktera 							
 	
 	//if uslov ako brojac vraca 0 da nema tog karaktera u stringu 
 	if (count(str,ch)==0){

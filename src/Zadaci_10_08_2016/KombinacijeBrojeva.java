@@ -21,8 +21,9 @@ public class KombinacijeBrojeva {
 			
 			//uslov dok brojevi nisu isti broj kombinacija se povecava
 			if (i!=j){
-			System.out.print("["+i+" "+j + "] " );
-			kombinacije++;
+			
+				System.out.print("["+i+" "+j + "] " );
+				kombinacije++;
 			}
 		}
 	}

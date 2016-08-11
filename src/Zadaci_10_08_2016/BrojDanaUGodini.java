@@ -36,7 +36,7 @@ public class BrojDanaUGodini {
 		}
 		
 		for (int i=pocetnaGod; i<=krajnjaGod; i++){
-			System.out.println(i+".godine "+numberOfDayInAYear(i)+ " dana,");
+			System.out.println(i+".godina ima "+numberOfDayInAYear(i)+ " dana.");
 		}
 	}
 	
