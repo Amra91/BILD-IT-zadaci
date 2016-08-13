@@ -12,8 +12,7 @@ public class MilisecundeUSate {
 		
 		System.out.println(convertMillis(100000));
 		
-		// predstavlja tacno vrijeme (UTC+1)
-		System.out.println(convertMillis(System.currentTimeMillis()));
+		
 	}
 
 	public static String convertMillis (long millis){
