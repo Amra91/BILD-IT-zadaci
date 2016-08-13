@@ -11,27 +11,27 @@ public class Zad3_ProstBroj {
 		
 	// petlja krece od 2; jer prvi prost broj je 2
 		for (int i =2; i<100000; i++){
-			if (isPrime(i)){
-				System.out.println(i);
+			if (isPrime(i)!=0){
+				System.out.println(isPrime(i));
 			}
 		}
 	}
 	//provjera da li je broj prost
-	public static boolean isPrime (int n){
+	public static int isPrime (int n){
 	
-		boolean isPrime=true;
+		int prime =n;
 	
 		//for petlja za provjeru brojeva od 2 do n, ne ukljucujuci i n
 		for(int i=2; i<n; i++){
     		//uslov za provjeru da li je broj djeljiv sa nekim brojem
             if(n%i == 0){
-            	isPrime =false;
+            	 prime = 0;
             	break;
             }
                
         	}
 		// vracanje da li je prost broj
-		return isPrime;
+		return prime;
 
 }
 }
