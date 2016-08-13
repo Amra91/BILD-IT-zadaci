@@ -9,7 +9,9 @@ public class Zad3_ProstBroj {
 
 	public static void main(String[] args) {
 		
-	// petlja krece od 2; jer prvi prost broj je 2
+	//  prvi prost broj je 2, brojevi 0 i 1 nisu prosti brojevi
+	//	petlja ide od 2 do 100000 ne ukljucujuci i 100000 koji nije prost broj
+		
 		for (int i =2; i<100000; i++){
 			if (isPrime(i)!=0){
 				System.out.println(isPrime(i));
