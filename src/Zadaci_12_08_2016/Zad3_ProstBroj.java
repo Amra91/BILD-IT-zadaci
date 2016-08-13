@@ -30,7 +30,7 @@ public class Zad3_ProstBroj {
             }
                
         	}
-		// vracanje da li je prost broj
+		// vracanje da broja, ako vraca 0, znaci nije prost broj
 		return prime;
 
 }
