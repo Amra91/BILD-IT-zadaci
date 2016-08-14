@@ -72,26 +72,11 @@ public class Zad3EmirpBrojevi {
 
 		
 	// metoda za provjeru da li je prost broj
-	public static boolean isPrime(int n){
+	public static boolean isPrime(int n){	
+	
+		//petlja od 2 do n; provjera da li je neki broj djeljiv sa i
 			
-		//prosti brojevi ne mogu biti manji od 2 
-		if(n < 2){
-			return false;
-		}
-		
-		// ako je provjera za 2, vracamo da je prost
-		if(n == 2){
-			return true;
-		}
-		
-		//ako su brojevi 0 vracamo false;
-		if((n & 1) == 0) {
-			return false;
-		}
-	 
-		//petlja od 3 do n; uvecavajuci se za dva, jer provjeramo neparne brojeve
-			
-		for(int i = 3; i <n; i+=2){
+		for(int i = 2; i <n; i++){
 				if(n % i == 0) {
 					return false;
 				}
