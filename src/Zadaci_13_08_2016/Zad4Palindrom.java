@@ -12,7 +12,7 @@ public class Zad4Palindrom {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Palindrome prime:");
-		// petlja krece od 11; jer palindrom mora imati min 2 karaktera
+		
 		int i=2;	
 		//brojac palindrome prime brojeva
 		int counter=0;

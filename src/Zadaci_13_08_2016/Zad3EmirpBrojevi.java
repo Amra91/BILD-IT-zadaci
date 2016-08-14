@@ -12,8 +12,8 @@ public class Zad3EmirpBrojevi {
 	public static void main(String[] args) {
 		
 		int counter =0; // brojac emirp brojeva
-		int i=11;		// krecemo od 11 jer emirp brojevi su dvocifreni  
-						//i zbog brzeg dobivanja rezultata jer cemo uvecavati provjeru za 2
+		int i=2;		
+						
 		
 		//uslov dok ne bude 100 emirp brojeva
 		while (counter <100){
@@ -28,8 +28,8 @@ public class Zad3EmirpBrojevi {
 					System.out.println();
 				}
 			}
-			// povecanje broja za 2
-			i+=2;
+			
+			i++;
 		}
 		
 		
