@@ -17,8 +17,8 @@ public class Zad4Palindrom {
 		//brojac palindrome prime brojeva
 		int counter=0;
 		
-		// while uslov dok ne bude 100 brojeva palindrome prime
-		// svaki put se uvacava za 2 jer provjerava samo neparne brojeve
+		/* while uslov dok ne bude 100 brojeva palindrome prime
+		 svaki put se uvacava za 2 jer provjerava samo neparne brojeve */
 		while (counter<100){
 			// if uslov ako je broj palindrom i ako je prost broj
 			if (isPrime(i)== true && isPalindrome(i)==true){
@@ -40,8 +40,8 @@ public class Zad4Palindrom {
 		//for petlja do n trazenog broja 
 		for ( int i = 2; i< n; i++){
 		   
-			// if uslov ako je broj djeljiv sa bilo kojim brojem
-			//osim 1 i samim sobom, taj broj nije palindrom i vraca false
+			/* if uslov ako je broj djeljiv sa bilo kojim brojem
+			 osim 1 i samim sobom, taj broj nije palindrom i vraca false */
 	        if(n%i==0){
 	            return false;
 	            
@@ -54,8 +54,8 @@ public class Zad4Palindrom {
 	// boolean provjera da li je palindorm na osnovu reverse metode
 	public static boolean isPalindrome(int number){
 		
-		//uslov ako je reverse metoda jednaka unesenom broju
-		//status je true vraca da je broj palindrom
+		/*uslov ako je reverse metoda jednaka unesenom broju
+		status je true vraca da je broj palindrom */
 		if (reverse (number)== number){
 			 return true;
 			}
