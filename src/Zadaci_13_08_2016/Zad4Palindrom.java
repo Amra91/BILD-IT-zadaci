@@ -13,7 +13,7 @@ public class Zad4Palindrom {
 		
 		System.out.println("Palindrome prime:");
 		// petlja krece od 11; jer palindrom mora imati min 2 karaktera
-		int i=11;	
+		int i=2;	
 		//brojac palindrome prime brojeva
 		int counter=0;
 		
@@ -30,13 +30,19 @@ public class Zad4Palindrom {
 				}
 			}
 			//uvecanje za dva, zbog brze provjere
-			i+=2;
+			i++;
 		}
 	}
 	
 	// metoda za provjeru da li je prost broj
 	public static boolean isPrime(int n) {
 	  
+		if (n==1){
+			return false;
+		}
+		if (n==2){
+			return true;
+		}
 		//for petlja do n trazenog broja 
 		for ( int i = 2; i< n; i++){
 		   
