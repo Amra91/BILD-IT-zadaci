@@ -20,15 +20,11 @@ public class Zad3_ProstBroj {
 	}
 	//provjera da li je broj prost
 	public static int isPrime (int n){
-		//prost broj je n
+		//vraca ako je prost broj, vraca vrijednost n
 		int prime =n;
-		// ako je n broj 2, vraca da je prost broj
-		if (n==2){
-			prime =2;
-		}
 	
-		//for petlja za provjeru brojeva od 3 do n, povecavajuci ih za dva i ne ukljucujuci i n
-		for(int i = 3; i < n;i+=2){
+		//for petlja za provjeru brojeva 
+		for(int i = 2; i < n; i++){
     		//uslov za provjeru da li je broj djeljiv sa nekim brojem
             if(n%i == 0){
             	 prime = 0;
