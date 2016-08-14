@@ -34,8 +34,11 @@ public class Zad5UporedjivanjeProizvoda {
 		if ((price1/amount1)>(price2/amount2)){
 			System.out.println("Bolju cijenu ima prvi proizvod.");
 				}
-		else{
+		else if (((price1/amount1)<(price2/amount2))){
 			System.out.println("Bolje cijenu ima drugi proizvod.");
+		}
+		else{
+			System.out.println("Cijene za oba proizvoda je ista");
 		}
 				
 						
