@@ -53,7 +53,7 @@ public class Zad2RockPaperScissors {
 					System.out.println("Comp je kamen. Vi ste kamen. Nerijesno");
 					break;
 				case 1:
-					System.out.println(" Comp je kamen. Vi ste papir. Pobjedili ste.");
+					System.out.println("Comp je kamen. Vi ste papir. Pobjedili ste.");
 						break;
 				case 2:
 					System.out.println("Comp je kamen. Vi ste makaze. Izguili ste.");
@@ -86,7 +86,7 @@ public class Zad2RockPaperScissors {
 			System.out.println("Comp je makaze. Vi ste kamen. Pobjedili ste.");
 				break;
 			case 1:
-				System.out.println(" Comp je makaze. Vi ste papir. Izgubili ste.");
+				System.out.println("Comp je makaze. Vi ste papir. Izgubili ste.");
 	 				break;
 			case 2:
 				System.out.println("Comp je makaze. Vi ste makaze. Nerijeseno");
