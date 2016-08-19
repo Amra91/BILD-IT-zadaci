@@ -20,7 +20,7 @@ public class Zad4_SumElementsColumnByColumn {
 		
 		//unos matrice
 		for (int i=0; i<matrix.length; i++){
-			System.out.println();
+			System.out.println("Unesite brojeve za "+i+ " red:" );
 			
 			for (int j=0; j<matrix[i].length; j++){
 				matrix[i][j]= check();
@@ -30,7 +30,7 @@ public class Zad4_SumElementsColumnByColumn {
 		
 		//printanje sume kolona
 		for (int j=0; j<matrix[0].length; j++){
-			System.out.println("Sum column "+ (j+1)+ " is "+ sumColumn(matrix,j));
+			System.out.println("Sum column "+ j+ " is "+ sumColumn(matrix,j));
 			
 			}
 		
