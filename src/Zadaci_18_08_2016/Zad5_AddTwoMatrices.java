@@ -46,7 +46,7 @@ public class Zad5_AddTwoMatrices {
 	// kreiranje trece matrice koja je suma prehodne dvije
 	public static double[][] addMatrix(double[][] a, double[][] b) {
 		
-		double[][] matrix = new double[a.length][a.length]; 
+		double[][] matrix = new double[a.length][a[0].length]; 
 		for (int i=0; i<matrix.length; i++){
 			for(int j=0;j<matrix[i].length; j++){
 				// matrica je suma razlicitih matrica na istoj poziciji elemenata
