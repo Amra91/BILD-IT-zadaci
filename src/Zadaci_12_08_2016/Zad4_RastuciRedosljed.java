@@ -39,7 +39,7 @@ public class Zad4_RastuciRedosljed {
 	public static void sortiraniBrojevi( int a, int b, int c){
 		// brojeve dodajemo u niz
 		int[] array = {a,b,c};
-		int temp = 0;
+		int temp = a;
 		
 		// petlje za provjeru brojeva
 		for(int i = 0; i<array.length; i++){
