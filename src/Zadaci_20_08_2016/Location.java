@@ -14,6 +14,7 @@ import java.util.InputMismatchException;
 
 public class Location {
 
+	//date fileds
 	public int row;
 	public int column;
 	public double maxValue;
@@ -22,6 +23,7 @@ public class Location {
 	
 	public static void main(String[] args) {
 		
+		//kreiranje matrice 3x3
 		double[][] a =  new double[3][3];
 		//unos matrice
 		System.out.println("Unesite matricu [3x3]: ");

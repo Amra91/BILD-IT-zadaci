@@ -8,7 +8,7 @@ public class StopWatchTest {
 		//kreiranje objekta vrijeme
 		StopWatch vrijeme = new StopWatch();
 		
-		//kreiranje niza od 100000 random elemenata
+		//kreiranje niza od 100000 random elemenata od 0 do 20
 		int[] niz = new int [100000];
 		for (int i=0; i<niz.length;i++){
 			niz[i] = (int)(Math.random()*20);
