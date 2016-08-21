@@ -12,17 +12,15 @@ public class StopWatchTest {
 		int[] niz = new int [100000];
 		for (int i=0; i<niz.length;i++){
 			niz[i] = (int)(Math.random()*20);
-			System.out.print(niz[i]+ " ");
-
 		}
 		
 		//pozivanje metode za pocetak
 		vrijeme.start();
-	
+	 
 		//sortiranje niza
 		for (int i=0; i<niz.length;i++){
-	
-			for (int j=0; j<niz.length;j++){
+			
+			for (int j=i; j<niz.length;j++){
 				
 				if (niz[i]>niz[j]){
 					int temp=niz[j];
@@ -31,6 +29,7 @@ public class StopWatchTest {
 					}
 				}
 			} 
+	
 		//pozivanje metode za stopiranje
 		vrijeme.stop();
 		
