@@ -94,7 +94,7 @@ public class Account {
 	//vracanje mjesecne kamate
 	double getMonthlyInterest(){
 		// Monthly interest is balance*monthlyInterestRate.
-		return balance*(annualInterestRate/12/100) ;
+		return balance*getMonthlyInterstRate()/100 ;
 	}
 	
 	//podizanje novca sa racuna
