@@ -29,28 +29,28 @@ public class RegularPolygon {
 		this.y = y;
 	}
 	
-	private double getSide() {
+	public double getSide() {
 		return side;
 	}
-	private void setSide(double side) {
+	public void setSide(double side) {
 		this.side = side;
 	}
-	private double getX() {
+	public double getX() {
 		return x;
 	}
-	private void setX(double x) {
+	public void setX(double x) {
 		this.x = x;
 	}
-	private double getY() {
+	public double getY() {
 		return y;
 	}
-	private void setY(double y) {
+	public void setY(double y) {
 		this.y = y;
 	}
-	private void setN(int n){
+	public void setN(int n){
 		this.n = n;
 	}
-	private int getN(){
+	public int getN(){
 		return n;
 	}
 	
