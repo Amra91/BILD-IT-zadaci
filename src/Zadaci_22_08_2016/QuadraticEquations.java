@@ -26,18 +26,18 @@ public class QuadraticEquations {
 	}
 	double getRoot1(){
 		
-			double r1 = 0;
-				//Uslov iz teksta zadatka,
-				//ako je diskriminanta negativna, postavljamo rijesenje jedan na nulu i takvog ga vracamo
-				if(getDiscriminant() < 0){
+		double r1 = 0;
+			//Uslov iz teksta zadatka,
+			//ako je diskriminanta negativna, postavljamo rijesenje jedan na nulu i takvog ga vracamo
+			if(getDiscriminant() < 0){
 					r1 = 0;
-				}else{
+			}else{
 					//Izracunavamo rijesenje jedan 
 					r1 = ((-1*b)+Math.sqrt(getDiscriminant()))/(2*a);
-				}
+			}
 				
-			return r1;
-		}
+		return r1;
+	}
 	
 	//Metoda vraca rijesenje dva
 	double getRoot2(){

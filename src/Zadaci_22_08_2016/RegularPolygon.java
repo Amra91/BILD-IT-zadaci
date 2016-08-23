@@ -28,30 +28,37 @@ public class RegularPolygon {
 		this.x = x;
 		this.y = y;
 	}
-	
+	//geter za stranicu
 	public double getSide() {
 		return side;
 	}
+	//seter za stranicu
 	public void setSide(double side) {
 		this.side = side;
 	}
+	//geter za x
 	public double getX() {
 		return x;
 	}
+	//seter za x
 	public void setX(double x) {
 		this.x = x;
 	}
+	//geter za y
 	public double getY() {
 		return y;
 	}
+	//seter za y
 	public void setY(double y) {
 		this.y = y;
 	}
-	public void setN(int n){
-		this.n = n;
-	}
+	//geter za N
 	public int getN(){
 		return n;
+	}
+	//seter za N
+	public void setN(int n){
+		this.n = n;
 	}
 	
 	//Metod koji racuna obim
