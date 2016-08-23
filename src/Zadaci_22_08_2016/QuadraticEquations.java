@@ -11,20 +11,20 @@ public class QuadraticEquations {
 		this.b = b;
 		this.c = c;
 	}
-	double getA(){
+	public double getA(){
 		return a;
 	}
-	double getB(){
+	public double getB(){
 		return b;
 	}
-	double getC(){
+	public double getC(){
 		return c;
 	}
 	//Metoda vraca diskriminantu
-	double getDiscriminant(){
+	public double getDiscriminant(){
 		return (Math.pow(b, 2))-(4*a*c);
 	}
-	double getRoot1(){
+	public double getRoot1(){
 		
 		double r1 = 0;
 			//Uslov iz teksta zadatka,
@@ -40,7 +40,7 @@ public class QuadraticEquations {
 	}
 	
 	//Metoda vraca rijesenje dva
-	double getRoot2(){
+	public double getRoot2(){
 		double r2 = 0;
 		//Uslov iz teksta zadatka,
 		//kada je diskriminanta negativna, postavljamo rijesenje na nulu i takvog ga vracamo
@@ -57,14 +57,14 @@ public class QuadraticEquations {
 	@Override
 	public String toString(){
 		if(getDiscriminant()>0){
-			return "Root one: "+getRoot1()+"\nRoot two: "+getRoot2();
+			return "Root one: "+getRoot1()+" Root two: "+getRoot2();
 		}
 		else if(getDiscriminant()<0){
 			return ("The equation has no roots.");
 		}
-		else{
+		else {
 			return ("The equation has one root: "+getRoot1());
-	}
+		}
 		
 	}
 	

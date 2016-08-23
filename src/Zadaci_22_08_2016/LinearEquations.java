@@ -12,40 +12,40 @@ public class LinearEquations {
 		this.f = f;
 		
 	}
-	double getA(){
+	public double getA(){
 		return a;
 	}
-	double getB(){
+	public double getB(){
 		return b;
 	}
-	double getC(){
+	public double getC(){
 		return c;
 	}
-	double getD(){
+	public double getD(){
 		return d;
 	}
-	double getE(){
+	public double getE(){
 		return e;
 	}
-	double getF(){
+	public double getF(){
 		return f;
 	}
-	boolean isSolvable(){
+	public boolean isSolvable(){
 		if((a*d - b*c)==0){
 			return false;
 		}else{
 			return true;
 		}
 	}
-	double getX(){
+	public double getX(){
 		double x = ((e*d)-(b*f))/((a*d)-(b*c));
 		return x;
 	}
-	double getY(){
+	public double getY(){
 		double y = ((a*f)-(e*c))/((a*d)-(b*c));
 		return y;
 	}
-	void printResult(){
+	public void printResult(){
 		if(isSolvable()==false){
 			System.out.println("The equations has no solutions.");
 		}
