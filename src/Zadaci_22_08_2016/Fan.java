@@ -49,7 +49,7 @@ public class Fan {
 	//metoda toString
 	public String toString(){
 		if(on == true){
-			return "Fan is on, fan speed is " + speed + ", color is "+color+" and radius is "+this.radius;
+			return "Fan is on, fan speed is " + speed + ", color is "+color+" and radius is "+radius;
 		}
 		else{
 			return "Fan is off, fan color is "+color+" and radius is "+radius+ ". ";
