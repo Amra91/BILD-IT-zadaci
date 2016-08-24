@@ -24,42 +24,48 @@ public class Time {
 	long minutes;
 	long seconds;
 
-	
-	Time(){
-		seconds = System.currentTimeMillis();
-		minutes =  System.currentTimeMillis();
-		hours =  System.currentTimeMillis();
-		}
-	Time(long sek){
-		seconds = sek;
-	}
-	
-	public void setHours(long hours){
-		this.hours = hours;
-	}
-	public void setMinutes(long minutes){
-		this.minutes = minutes;
+	//no-args konstruktor gdje se sekunde dobivaju vrijesdnost tacnih milisekundi( System.currentTimeMillis())
+	public Time(){
+		setTime( System.currentTimeMillis());
 		
+		}
+	
+	//konstruktor za preracunavanje sekundi
+	public Time(long milisek){
+		setTime(milisek);
 	}
-	public void setSeconds(long seconds){
+	
+	//konstruktor za ubacivanje sati, minuta i sekundi
+	public Time(int hours, int minutes, int seconds) {
+		this.hours = hours;
+		this.minutes = minutes;
 		this.seconds = seconds;
 	}
-	long getHours(){
-		long sat = ((seconds /1000)/60)/60;
-		 
-		 sat = sat % 24;
-		 return sat;
+	
+	//geter metoda za sate
+	public long getHours(){
+		 return hours;
 		
 	}
-	long getMinutes(){
-		long min = (seconds / 1000)/60;
-		min = min%60;
-		return min;
+	//geter metoda za minute
+	public long getMinutes(){
+		return minutes;
 	}
-	long getSecond(){
-		seconds = seconds/1000;
-		seconds = seconds % 60;
+	//geter metoda za sekunde
+	public long getSecond(){
+		
 		return seconds;
+	}
+	public void setTime(long elapseTime){
+		
+		//kreiranje sekundi
+		seconds = (elapseTime/1000) % 60;
+		
+		//kreiranje min
+		minutes =(elapseTime/1000/60)%60;
+		
+		//kreiranje sata
+		hours=  (elapseTime/1000/60/60)%24;
 	}
 
 }
