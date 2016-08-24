@@ -50,12 +50,12 @@ public class MyPoint {
 		
 	public static void main(String[] args) {
 		
+		//kreiranje objekata za tacku 1 i tacku 2
 		MyPoint obj1 = new MyPoint(0,0);
 		MyPoint obj2 = new MyPoint (10,30.5);
-	
+		//racunanje distance izmedju dva objekta
 		System.out.println("The distance between "+ obj1.distance(obj2));
 		
-		System.out.println();
 		
 	}
 }
