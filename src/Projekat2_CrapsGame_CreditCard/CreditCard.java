@@ -54,6 +54,7 @@ public class CreditCard {
     	  */
     	 int[] array= digits(creCard);
     	 int prefix = getPrefix(array);
+    	 System.out.println(prefix);
     	 
     	 if (prefix /10 ==4){
     		 System.out.println("Visa Cards:");
@@ -130,9 +131,11 @@ public class CreditCard {
             else{
                 sum += num;
             }
+            System.out.println(num);
         }
+       
         return sum;
-
+        
     }
 
     private static int sumOddPlaces(int[] digits) {
@@ -154,6 +157,7 @@ public class CreditCard {
     	
     	String s = digits[0]+""+digits[1]+"";
     	int getPrefix = Integer.parseInt(s);
+    	
     	
     	return getPrefix;
     	
