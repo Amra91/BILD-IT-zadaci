@@ -53,7 +53,7 @@ public class MyPoint {
 		//kreiranje objekata za tacku 1 i tacku 2
 		MyPoint obj1 = new MyPoint(0,0);
 		MyPoint obj2 = new MyPoint (10,30.5);
-		//racunanje distance izmedju dva objekta
+		//racunanje udaljenosti izmedju dva objekta
 		System.out.println("The distance between "+ obj1.distance(obj2));
 		
 		
