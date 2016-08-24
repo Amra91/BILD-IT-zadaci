@@ -37,20 +37,14 @@ public class MyPoint {
 		return Math.sqrt((Math.pow((this.x - x2), 2) + Math.pow((this.y - y2), 2)));
 	}
 	
-	//za istancu
-	public double distance(MyPoint a, MyPoint b) {
+	//za objekat
+	public double distance(MyPoint a) {
 		double x1 = a.getX() ;
 		double y1 = a.getY() ;
 
-		double x2 = b.getX() ;
-		double y2 = b.getY() ;
+		double distanc =distance(x1,y1)  ;
 
-		double dx = x2 - x1 ;
-		double dy = y2 - y1 ;
-
-		double distance = Math.sqrt(Math.pow(dx, 2) + Math.pow(dy, 2)) ;
-
-		return distance ;
+		return distanc ;
 		}
 
 		
@@ -59,8 +53,8 @@ public class MyPoint {
 		MyPoint obj1 = new MyPoint(0,0);
 		MyPoint obj2 = new MyPoint (10,30.5);
 	
-		System.out.println("The distance between "+ obj1.distance(obj1,obj2));
-		System.out.println("The distance between "+ obj1.distance(10, 30.5));
+		System.out.println("The distance between "+ obj1.distance(obj2));
+		
 		System.out.println();
 		
 	}
