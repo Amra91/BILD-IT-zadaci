@@ -26,7 +26,6 @@ public class SquareNumbers {
 		
 		System.out.println("10 square numbers that are greater than Long.MAX_VALUE is:");
 		
-	
 		while(count<10){
 				//biginteger postaje korijen od Long.MAX_VALUE uvecan za 1
 				BigInteger square = new BigInteger(x+"");
