@@ -77,7 +77,7 @@ public class QuadraticEquations {
 		//Printanje rezultata preko metode toString
 		System.out.println(kvadratna_jedn.toString());
 		//Provjera kada je diskriminanta manja od 0
-		System.out.println(new QuadraticEquations(1, 1, 5).toString());
+		System.out.println(new QuadraticEquations(1, 7, 4).toString());
 		//Provjera kada je diskriminanta jednaka 0
 		System.out.println(new QuadraticEquations(4, 4, 1).toString());
 			
