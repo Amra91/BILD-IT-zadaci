@@ -1,8 +1,6 @@
 package Zadaci_26_08_2016;
 
 import java.util.ArrayList;
-
-
 /*
  * (Shuffle ArrayList) 
  * Write the following method that shuffles the elements in an ArrayList of integers. 
@@ -32,7 +30,12 @@ public class ShuffleArrayList {
 		
 		//kreiranje nove liste integera
 		ArrayList<Integer> newList = new ArrayList<>();
+		
 		System.out.println("Array after shuffle:");
+		if (list.isEmpty()){
+			System.out.println("ArrayLista je prazna.");
+		}
+		
 		//uslov dok ArrayLista list ne bude prazna
 		while(!list.isEmpty()){
 			
