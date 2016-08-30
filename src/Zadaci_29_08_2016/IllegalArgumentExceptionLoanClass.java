@@ -8,13 +8,17 @@ public class IllegalArgumentExceptionLoanClass {
 	
 	public static void main(String[] args) {
 		
+		// try blok za unos elemenata
         try {
             Loan loan = new Loan();
             loan.setAnnualInterestRate(0);
             loan.setNumberOfYears(0);
             loan.setLoanAmount(100);
             
-        } catch (IllegalArgumentException ex) {
+        } 
+        //ukoliko se uhvati exception
+        catch (IllegalArgumentException ex) {
+        	//printa se poruka
             System.out.println("Illegal Argument Exception. ");
         }
     }
