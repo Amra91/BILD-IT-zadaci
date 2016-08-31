@@ -1,0 +1,4 @@
+Datoteka ili fajl je strukturirani sastav podataka 
+koji su sadržajno usko povezani i 
+koji se nalaze na internom (npr. hard disku) 
+ili eksternom (npr. DVD) mediju za memorisanje
