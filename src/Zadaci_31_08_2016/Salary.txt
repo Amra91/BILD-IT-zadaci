@@ -1,0 +1,1000 @@
+FirstName1, LastName1, associate 78919.96
+FirstName2, LastName2, assistant 66049.81
+FirstName3, LastName3, associate 97314.00
+FirstName4, LastName4, full profesor 87610.92
+FirstName5, LastName5, assistant 59503.08
+FirstName6, LastName6, assistant 63220.71
+FirstName7, LastName7, assistant 67043.06
+FirstName8, LastName8, full profesor 82929.56
+FirstName9, LastName9, full profesor 92353.72
+FirstName10, LastName10, assistant 53680.88
+FirstName11, LastName11, full profesor 92323.68
+FirstName12, LastName12, full profesor 109502.46
+FirstName13, LastName13, associate 86303.28
+FirstName14, LastName14, full profesor 83690.58
+FirstName15, LastName15, assistant 55651.34
+FirstName16, LastName16, associate 78832.13
+FirstName17, LastName17, full profesor 112517.45
+FirstName18, LastName18, associate 100454.44
+FirstName19, LastName19, full profesor 122728.75
+FirstName20, LastName20, full profesor 77509.49
+FirstName21, LastName21, associate 71471.07
+FirstName22, LastName22, associate 90324.20
+FirstName23, LastName23, assistant 70474.73
+FirstName24, LastName24, full profesor 102684.13
+FirstName25, LastName25, full profesor 94197.05
+FirstName26, LastName26, assistant 73973.47
+FirstName27, LastName27, associate 107624.96
+FirstName28, LastName28, assistant 54308.84
+FirstName29, LastName29, full profesor 115593.40
+FirstName30, LastName30, assistant 60426.55
+FirstName31, LastName31, assistant 79615.22
+FirstName32, LastName32, associate 87212.50
+FirstName33, LastName33, assistant 57816.91
+FirstName34, LastName34, assistant 61600.41
+FirstName35, LastName35, assistant 64382.27
+FirstName36, LastName36, associate 61333.23
+FirstName37, LastName37, full profesor 120780.39
+FirstName38, LastName38, assistant 59986.26
+FirstName39, LastName39, full profesor 90632.16
+FirstName40, LastName40, assistant 77522.45
+FirstName41, LastName41, assistant 54580.43
+FirstName42, LastName42, associate 63101.12
+FirstName43, LastName43, assistant 74583.67
+FirstName44, LastName44, associate 88072.66
+FirstName45, LastName45, associate 67306.71
+FirstName46, LastName46, full profesor 120863.74
+FirstName47, LastName47, assistant 67314.90
+FirstName48, LastName48, assistant 61670.95
+FirstName49, LastName49, full profesor 87553.47
+FirstName50, LastName50, full profesor 123869.02
+FirstName51, LastName51, associate 84208.81
+FirstName52, LastName52, associate 89292.92
+FirstName53, LastName53, full profesor 116678.23
+FirstName54, LastName54, associate 104545.47
+FirstName55, LastName55, assistant 52988.18
+FirstName56, LastName56, associate 68410.94
+FirstName57, LastName57, assistant 58676.16
+FirstName58, LastName58, assistant 69471.86
+FirstName59, LastName59, full profesor 123839.62
+FirstName60, LastName60, associate 85668.78
+FirstName61, LastName61, full profesor 101869.53
+FirstName62, LastName62, full profesor 118000.76
+FirstName63, LastName63, associate 62806.39
+FirstName64, LastName64, associate 92302.90
+FirstName65, LastName65, associate 101293.36
+FirstName66, LastName66, full profesor 89408.84
+FirstName67, LastName67, full profesor 113069.62
+FirstName68, LastName68, assistant 74961.25
+FirstName69, LastName69, assistant 62233.81
+FirstName70, LastName70, assistant 50308.79
+FirstName71, LastName71, full profesor 85712.51
+FirstName72, LastName72, assistant 58378.45
+FirstName73, LastName73, assistant 66895.78
+FirstName74, LastName74, assistant 78998.98
+FirstName75, LastName75, associate 71557.11
+FirstName76, LastName76, assistant 79935.01
+FirstName77, LastName77, assistant 51360.62
+FirstName78, LastName78, assistant 59403.25
+FirstName79, LastName79, full profesor 114149.54
+FirstName80, LastName80, full profesor 81522.30
+FirstName81, LastName81, associate 108206.88
+FirstName82, LastName82, associate 98906.44
+FirstName83, LastName83, assistant 65619.70
+FirstName84, LastName84, assistant 56681.80
+FirstName85, LastName85, assistant 74326.44
+FirstName86, LastName86, full profesor 85399.22
+FirstName87, LastName87, assistant 79653.40
+FirstName88, LastName88, assistant 64441.07
+FirstName89, LastName89, full profesor 85449.09
+FirstName90, LastName90, associate 95607.25
+FirstName91, LastName91, full profesor 94138.48
+FirstName92, LastName92, associate 92864.50
+FirstName93, LastName93, associate 66002.75
+FirstName94, LastName94, assistant 63277.42
+FirstName95, LastName95, assistant 69786.18
+FirstName96, LastName96, associate 73446.31
+FirstName97, LastName97, associate 60889.32
+FirstName98, LastName98, assistant 58362.63
+FirstName99, LastName99, full profesor 126934.66
+FirstName100, LastName100, full profesor 100715.65
+FirstName101, LastName101, associate 96414.59
+FirstName102, LastName102, associate 72654.22
+FirstName103, LastName103, associate 85724.89
+FirstName104, LastName104, associate 81421.92
+FirstName105, LastName105, full profesor 86809.54
+FirstName106, LastName106, assistant 72383.84
+FirstName107, LastName107, assistant 72163.47
+FirstName108, LastName108, assistant 59203.34
+FirstName109, LastName109, full profesor 117397.87
+FirstName110, LastName110, assistant 57783.79
+FirstName111, LastName111, associate 96500.86
+FirstName112, LastName112, assistant 51775.19
+FirstName113, LastName113, associate 103478.33
+FirstName114, LastName114, full profesor 112044.05
+FirstName115, LastName115, associate 94762.23
+FirstName116, LastName116, assistant 70443.96
+FirstName117, LastName117, associate 60529.21
+FirstName118, LastName118, full profesor 84106.26
+FirstName119, LastName119, assistant 78047.67
+FirstName120, LastName120, full profesor 111491.60
+FirstName121, LastName121, full profesor 84963.75
+FirstName122, LastName122, assistant 56423.34
+FirstName123, LastName123, full profesor 115164.13
+FirstName124, LastName124, full profesor 114161.24
+FirstName125, LastName125, full profesor 118572.73
+FirstName126, LastName126, associate 78263.34
+FirstName127, LastName127, associate 90351.25
+FirstName128, LastName128, assistant 51263.34
+FirstName129, LastName129, assistant 56120.27
+FirstName130, LastName130, full profesor 112784.07
+FirstName131, LastName131, full profesor 114248.99
+FirstName132, LastName132, full profesor 118341.56
+FirstName133, LastName133, associate 70200.55
+FirstName134, LastName134, associate 64338.36
+FirstName135, LastName135, assistant 59065.39
+FirstName136, LastName136, full profesor 93384.85
+FirstName137, LastName137, associate 62535.09
+FirstName138, LastName138, associate 105946.20
+FirstName139, LastName139, assistant 66524.09
+FirstName140, LastName140, full profesor 108980.91
+FirstName141, LastName141, assistant 78388.69
+FirstName142, LastName142, associate 87834.51
+FirstName143, LastName143, associate 70752.75
+FirstName144, LastName144, full profesor 113610.10
+FirstName145, LastName145, full profesor 77837.20
+FirstName146, LastName146, full profesor 122060.18
+FirstName147, LastName147, associate 102369.44
+FirstName148, LastName148, associate 68643.75
+FirstName149, LastName149, associate 80346.51
+FirstName150, LastName150, assistant 70504.59
+FirstName151, LastName151, full profesor 106471.93
+FirstName152, LastName152, full profesor 83757.75
+FirstName153, LastName153, assistant 61139.84
+FirstName154, LastName154, associate 107127.60
+FirstName155, LastName155, associate 92779.03
+FirstName156, LastName156, full profesor 76453.91
+FirstName157, LastName157, full profesor 99432.48
+FirstName158, LastName158, full profesor 116827.30
+FirstName159, LastName159, associate 77853.13
+FirstName160, LastName160, associate 62267.86
+FirstName161, LastName161, associate 89126.78
+FirstName162, LastName162, assistant 73251.72
+FirstName163, LastName163, assistant 74081.92
+FirstName164, LastName164, assistant 67608.70
+FirstName165, LastName165, assistant 61289.18
+FirstName166, LastName166, full profesor 112871.71
+FirstName167, LastName167, full profesor 122681.49
+FirstName168, LastName168, associate 92162.93
+FirstName169, LastName169, associate 94824.58
+FirstName170, LastName170, full profesor 103509.15
+FirstName171, LastName171, associate 75090.30
+FirstName172, LastName172, assistant 71774.48
+FirstName173, LastName173, associate 93895.66
+FirstName174, LastName174, full profesor 86995.60
+FirstName175, LastName175, assistant 68063.56
+FirstName176, LastName176, associate 82094.30
+FirstName177, LastName177, associate 67539.36
+FirstName178, LastName178, full profesor 107827.80
+FirstName179, LastName179, full profesor 93928.22
+FirstName180, LastName180, associate 74988.70
+FirstName181, LastName181, assistant 76524.45
+FirstName182, LastName182, associate 95533.78
+FirstName183, LastName183, associate 109349.00
+FirstName184, LastName184, assistant 66304.67
+FirstName185, LastName185, assistant 57623.93
+FirstName186, LastName186, associate 67653.60
+FirstName187, LastName187, full profesor 95565.23
+FirstName188, LastName188, assistant 52036.80
+FirstName189, LastName189, full profesor 86061.09
+FirstName190, LastName190, full profesor 125610.77
+FirstName191, LastName191, assistant 62692.82
+FirstName192, LastName192, associate 95758.44
+FirstName193, LastName193, full profesor 107341.06
+FirstName194, LastName194, assistant 73279.28
+FirstName195, LastName195, associate 97240.49
+FirstName196, LastName196, assistant 65086.80
+FirstName197, LastName197, full profesor 92813.47
+FirstName198, LastName198, full profesor 91148.90
+FirstName199, LastName199, assistant 55232.17
+FirstName200, LastName200, full profesor 107184.32
+FirstName201, LastName201, associate 103280.29
+FirstName202, LastName202, full profesor 129942.52
+FirstName203, LastName203, associate 82936.59
+FirstName204, LastName204, assistant 79913.75
+FirstName205, LastName205, assistant 78833.95
+FirstName206, LastName206, assistant 58735.55
+FirstName207, LastName207, assistant 67533.24
+FirstName208, LastName208, associate 84177.92
+FirstName209, LastName209, full profesor 116111.40
+FirstName210, LastName210, associate 63370.31
+FirstName211, LastName211, assistant 64596.20
+FirstName212, LastName212, full profesor 127968.75
+FirstName213, LastName213, full profesor 106183.60
+FirstName214, LastName214, associate 71305.20
+FirstName215, LastName215, full profesor 81898.97
+FirstName216, LastName216, associate 81374.51
+FirstName217, LastName217, full profesor 81301.00
+FirstName218, LastName218, full profesor 101163.48
+FirstName219, LastName219, associate 68534.74
+FirstName220, LastName220, full profesor 93064.50
+FirstName221, LastName221, associate 99002.43
+FirstName222, LastName222, associate 66195.28
+FirstName223, LastName223, full profesor 117887.83
+FirstName224, LastName224, assistant 72530.73
+FirstName225, LastName225, full profesor 91390.15
+FirstName226, LastName226, associate 98682.79
+FirstName227, LastName227, associate 70507.70
+FirstName228, LastName228, full profesor 125912.97
+FirstName229, LastName229, associate 63457.88
+FirstName230, LastName230, assistant 53036.53
+FirstName231, LastName231, assistant 57592.42
+FirstName232, LastName232, assistant 76381.38
+FirstName233, LastName233, full profesor 117131.94
+FirstName234, LastName234, associate 67134.51
+FirstName235, LastName235, associate 96353.61
+FirstName236, LastName236, full profesor 90179.49
+FirstName237, LastName237, full profesor 79752.35
+FirstName238, LastName238, associate 98206.49
+FirstName239, LastName239, associate 85983.65
+FirstName240, LastName240, assistant 72436.04
+FirstName241, LastName241, assistant 73039.49
+FirstName242, LastName242, associate 72073.59
+FirstName243, LastName243, assistant 77470.18
+FirstName244, LastName244, assistant 58041.61
+FirstName245, LastName245, full profesor 87487.29
+FirstName246, LastName246, assistant 53780.59
+FirstName247, LastName247, full profesor 85991.28
+FirstName248, LastName248, full profesor 95088.17
+FirstName249, LastName249, assistant 63056.04
+FirstName250, LastName250, full profesor 120153.50
+FirstName251, LastName251, full profesor 117519.30
+FirstName252, LastName252, associate 71555.63
+FirstName253, LastName253, assistant 76895.90
+FirstName254, LastName254, assistant 66352.61
+FirstName255, LastName255, associate 73464.22
+FirstName256, LastName256, full profesor 76190.01
+FirstName257, LastName257, associate 101959.05
+FirstName258, LastName258, assistant 68275.30
+FirstName259, LastName259, full profesor 97677.76
+FirstName260, LastName260, associate 105135.92
+FirstName261, LastName261, assistant 79534.60
+FirstName262, LastName262, full profesor 84960.93
+FirstName263, LastName263, associate 90023.51
+FirstName264, LastName264, full profesor 110254.46
+FirstName265, LastName265, assistant 65194.33
+FirstName266, LastName266, assistant 78959.43
+FirstName267, LastName267, full profesor 100143.51
+FirstName268, LastName268, associate 99542.31
+FirstName269, LastName269, full profesor 77521.11
+FirstName270, LastName270, associate 83605.60
+FirstName271, LastName271, associate 101804.91
+FirstName272, LastName272, full profesor 117789.35
+FirstName273, LastName273, full profesor 123997.20
+FirstName274, LastName274, associate 100176.47
+FirstName275, LastName275, full profesor 76046.40
+FirstName276, LastName276, associate 81537.07
+FirstName277, LastName277, associate 94448.57
+FirstName278, LastName278, full profesor 82160.86
+FirstName279, LastName279, full profesor 80201.12
+FirstName280, LastName280, full profesor 116780.65
+FirstName281, LastName281, full profesor 91630.92
+FirstName282, LastName282, assistant 58587.98
+FirstName283, LastName283, assistant 72684.60
+FirstName284, LastName284, associate 61807.25
+FirstName285, LastName285, assistant 70119.08
+FirstName286, LastName286, associate 67860.14
+FirstName287, LastName287, associate 60376.85
+FirstName288, LastName288, associate 83566.03
+FirstName289, LastName289, assistant 73807.81
+FirstName290, LastName290, associate 99347.99
+FirstName291, LastName291, assistant 65431.38
+FirstName292, LastName292, full profesor 77481.16
+FirstName293, LastName293, full profesor 85904.01
+FirstName294, LastName294, full profesor 95883.00
+FirstName295, LastName295, full profesor 107416.65
+FirstName296, LastName296, associate 74363.66
+FirstName297, LastName297, associate 85127.32
+FirstName298, LastName298, assistant 68671.59
+FirstName299, LastName299, full profesor 77772.97
+FirstName300, LastName300, full profesor 78318.07
+FirstName301, LastName301, associate 106958.36
+FirstName302, LastName302, full profesor 75195.92
+FirstName303, LastName303, assistant 63164.65
+FirstName304, LastName304, full profesor 110518.65
+FirstName305, LastName305, assistant 78597.35
+FirstName306, LastName306, assistant 51635.92
+FirstName307, LastName307, assistant 60105.80
+FirstName308, LastName308, assistant 70520.77
+FirstName309, LastName309, full profesor 88015.06
+FirstName310, LastName310, full profesor 112852.83
+FirstName311, LastName311, assistant 73173.81
+FirstName312, LastName312, associate 98439.98
+FirstName313, LastName313, full profesor 119692.28
+FirstName314, LastName314, associate 63102.67
+FirstName315, LastName315, full profesor 127206.85
+FirstName316, LastName316, assistant 72418.71
+FirstName317, LastName317, assistant 50999.96
+FirstName318, LastName318, assistant 69206.02
+FirstName319, LastName319, associate 99522.97
+FirstName320, LastName320, assistant 50780.65
+FirstName321, LastName321, full profesor 108269.92
+FirstName322, LastName322, associate 79054.89
+FirstName323, LastName323, associate 61756.73
+FirstName324, LastName324, full profesor 98875.50
+FirstName325, LastName325, full profesor 75079.44
+FirstName326, LastName326, associate 71314.14
+FirstName327, LastName327, assistant 76227.67
+FirstName328, LastName328, assistant 63313.00
+FirstName329, LastName329, assistant 76493.11
+FirstName330, LastName330, full profesor 92368.60
+FirstName331, LastName331, full profesor 95110.17
+FirstName332, LastName332, associate 99989.40
+FirstName333, LastName333, full profesor 95903.92
+FirstName334, LastName334, assistant 68192.61
+FirstName335, LastName335, associate 65804.33
+FirstName336, LastName336, full profesor 122189.87
+FirstName337, LastName337, associate 77846.46
+FirstName338, LastName338, associate 100914.05
+FirstName339, LastName339, assistant 79046.61
+FirstName340, LastName340, full profesor 85114.75
+FirstName341, LastName341, associate 60975.62
+FirstName342, LastName342, assistant 76572.57
+FirstName343, LastName343, associate 94048.20
+FirstName344, LastName344, assistant 56366.76
+FirstName345, LastName345, full profesor 101320.50
+FirstName346, LastName346, assistant 60144.52
+FirstName347, LastName347, associate 102103.37
+FirstName348, LastName348, associate 60895.42
+FirstName349, LastName349, assistant 53981.48
+FirstName350, LastName350, associate 74325.36
+FirstName351, LastName351, associate 85007.88
+FirstName352, LastName352, associate 84988.58
+FirstName353, LastName353, assistant 79542.80
+FirstName354, LastName354, assistant 78248.11
+FirstName355, LastName355, full profesor 89052.71
+FirstName356, LastName356, associate 86356.06
+FirstName357, LastName357, full profesor 88948.01
+FirstName358, LastName358, full profesor 121166.99
+FirstName359, LastName359, assistant 73916.05
+FirstName360, LastName360, associate 102527.40
+FirstName361, LastName361, full profesor 124299.91
+FirstName362, LastName362, assistant 55995.65
+FirstName363, LastName363, assistant 53754.49
+FirstName364, LastName364, associate 101366.02
+FirstName365, LastName365, full profesor 124640.60
+FirstName366, LastName366, assistant 52827.87
+FirstName367, LastName367, full profesor 127004.96
+FirstName368, LastName368, assistant 57872.73
+FirstName369, LastName369, associate 83741.90
+FirstName370, LastName370, full profesor 94112.18
+FirstName371, LastName371, assistant 79318.99
+FirstName372, LastName372, assistant 77477.30
+FirstName373, LastName373, assistant 63765.42
+FirstName374, LastName374, assistant 60519.20
+FirstName375, LastName375, assistant 54756.48
+FirstName376, LastName376, assistant 64315.28
+FirstName377, LastName377, full profesor 109960.52
+FirstName378, LastName378, full profesor 86544.21
+FirstName379, LastName379, full profesor 129515.50
+FirstName380, LastName380, associate 62873.93
+FirstName381, LastName381, assistant 72205.76
+FirstName382, LastName382, assistant 77226.48
+FirstName383, LastName383, full profesor 103121.45
+FirstName384, LastName384, assistant 65023.94
+FirstName385, LastName385, full profesor 92532.47
+FirstName386, LastName386, associate 80025.89
+FirstName387, LastName387, associate 91230.62
+FirstName388, LastName388, associate 63208.37
+FirstName389, LastName389, associate 99459.83
+FirstName390, LastName390, full profesor 120811.59
+FirstName391, LastName391, assistant 73834.87
+FirstName392, LastName392, associate 73426.07
+FirstName393, LastName393, associate 75816.23
+FirstName394, LastName394, full profesor 90815.82
+FirstName395, LastName395, associate 76057.43
+FirstName396, LastName396, associate 108508.81
+FirstName397, LastName397, associate 78350.69
+FirstName398, LastName398, full profesor 116402.89
+FirstName399, LastName399, assistant 71011.72
+FirstName400, LastName400, full profesor 127487.37
+FirstName401, LastName401, assistant 51711.57
+FirstName402, LastName402, associate 71511.83
+FirstName403, LastName403, full profesor 118984.77
+FirstName404, LastName404, full profesor 108058.21
+FirstName405, LastName405, assistant 69616.75
+FirstName406, LastName406, associate 67970.77
+FirstName407, LastName407, associate 102042.20
+FirstName408, LastName408, assistant 62743.57
+FirstName409, LastName409, assistant 75440.75
+FirstName410, LastName410, full profesor 107148.53
+FirstName411, LastName411, full profesor 98431.21
+FirstName412, LastName412, associate 86880.46
+FirstName413, LastName413, full profesor 111119.79
+FirstName414, LastName414, assistant 72191.60
+FirstName415, LastName415, assistant 52917.72
+FirstName416, LastName416, full profesor 93580.87
+FirstName417, LastName417, assistant 52193.22
+FirstName418, LastName418, full profesor 128813.68
+FirstName419, LastName419, full profesor 84135.79
+FirstName420, LastName420, full profesor 128573.17
+FirstName421, LastName421, associate 101192.85
+FirstName422, LastName422, associate 71124.49
+FirstName423, LastName423, assistant 74080.44
+FirstName424, LastName424, assistant 61570.83
+FirstName425, LastName425, associate 102446.11
+FirstName426, LastName426, associate 77843.72
+FirstName427, LastName427, full profesor 109204.90
+FirstName428, LastName428, full profesor 128400.97
+FirstName429, LastName429, full profesor 95164.58
+FirstName430, LastName430, assistant 57373.73
+FirstName431, LastName431, assistant 57671.34
+FirstName432, LastName432, associate 69123.82
+FirstName433, LastName433, full profesor 110047.39
+FirstName434, LastName434, assistant 58881.69
+FirstName435, LastName435, full profesor 110683.77
+FirstName436, LastName436, associate 90121.61
+FirstName437, LastName437, full profesor 118351.39
+FirstName438, LastName438, associate 97168.08
+FirstName439, LastName439, assistant 52005.34
+FirstName440, LastName440, full profesor 91302.45
+FirstName441, LastName441, associate 75743.45
+FirstName442, LastName442, assistant 52618.22
+FirstName443, LastName443, full profesor 78038.00
+FirstName444, LastName444, associate 84918.75
+FirstName445, LastName445, associate 65960.61
+FirstName446, LastName446, associate 77543.04
+FirstName447, LastName447, associate 101821.69
+FirstName448, LastName448, full profesor 125952.89
+FirstName449, LastName449, associate 70023.53
+FirstName450, LastName450, associate 64521.71
+FirstName451, LastName451, full profesor 123645.41
+FirstName452, LastName452, full profesor 90430.24
+FirstName453, LastName453, assistant 60819.27
+FirstName454, LastName454, assistant 59947.93
+FirstName455, LastName455, associate 93242.29
+FirstName456, LastName456, assistant 71700.18
+FirstName457, LastName457, assistant 66147.00
+FirstName458, LastName458, assistant 75709.29
+FirstName459, LastName459, full profesor 117791.71
+FirstName460, LastName460, full profesor 96655.71
+FirstName461, LastName461, associate 91676.75
+FirstName462, LastName462, assistant 65650.19
+FirstName463, LastName463, assistant 79843.50
+FirstName464, LastName464, full profesor 89061.33
+FirstName465, LastName465, associate 106936.09
+FirstName466, LastName466, full profesor 103724.08
+FirstName467, LastName467, associate 106084.13
+FirstName468, LastName468, assistant 74935.95
+FirstName469, LastName469, full profesor 104475.40
+FirstName470, LastName470, full profesor 118712.12
+FirstName471, LastName471, assistant 58559.65
+FirstName472, LastName472, associate 90992.68
+FirstName473, LastName473, assistant 58303.77
+FirstName474, LastName474, assistant 79034.61
+FirstName475, LastName475, associate 63647.97
+FirstName476, LastName476, full profesor 89002.73
+FirstName477, LastName477, assistant 56199.10
+FirstName478, LastName478, assistant 66393.35
+FirstName479, LastName479, assistant 50551.95
+FirstName480, LastName480, associate 94750.43
+FirstName481, LastName481, full profesor 105055.79
+FirstName482, LastName482, assistant 57578.58
+FirstName483, LastName483, full profesor 84410.39
+FirstName484, LastName484, full profesor 75482.66
+FirstName485, LastName485, assistant 67888.68
+FirstName486, LastName486, full profesor 113385.95
+FirstName487, LastName487, associate 86846.02
+FirstName488, LastName488, assistant 66268.56
+FirstName489, LastName489, assistant 55184.29
+FirstName490, LastName490, associate 100721.48
+FirstName491, LastName491, associate 61435.12
+FirstName492, LastName492, associate 86532.80
+FirstName493, LastName493, full profesor 99479.28
+FirstName494, LastName494, assistant 71584.73
+FirstName495, LastName495, assistant 56453.03
+FirstName496, LastName496, assistant 63461.17
+FirstName497, LastName497, assistant 58427.62
+FirstName498, LastName498, associate 107009.15
+FirstName499, LastName499, assistant 68170.67
+FirstName500, LastName500, assistant 69586.99
+FirstName501, LastName501, assistant 64037.69
+FirstName502, LastName502, associate 68662.32
+FirstName503, LastName503, full profesor 100349.36
+FirstName504, LastName504, full profesor 81356.08
+FirstName505, LastName505, full profesor 98203.78
+FirstName506, LastName506, associate 60312.34
+FirstName507, LastName507, assistant 60950.83
+FirstName508, LastName508, associate 75103.17
+FirstName509, LastName509, full profesor 88546.28
+FirstName510, LastName510, assistant 58271.50
+FirstName511, LastName511, full profesor 77766.96
+FirstName512, LastName512, associate 84568.66
+FirstName513, LastName513, associate 72791.41
+FirstName514, LastName514, full profesor 129348.24
+FirstName515, LastName515, assistant 56323.82
+FirstName516, LastName516, full profesor 80024.79
+FirstName517, LastName517, full profesor 93006.93
+FirstName518, LastName518, assistant 79388.25
+FirstName519, LastName519, full profesor 91161.88
+FirstName520, LastName520, associate 97460.84
+FirstName521, LastName521, associate 94596.73
+FirstName522, LastName522, associate 96979.94
+FirstName523, LastName523, assistant 65240.01
+FirstName524, LastName524, full profesor 91926.94
+FirstName525, LastName525, full profesor 76655.72
+FirstName526, LastName526, assistant 52258.55
+FirstName527, LastName527, associate 86747.32
+FirstName528, LastName528, full profesor 124984.68
+FirstName529, LastName529, full profesor 129202.91
+FirstName530, LastName530, associate 87070.39
+FirstName531, LastName531, full profesor 112649.09
+FirstName532, LastName532, full profesor 118658.58
+FirstName533, LastName533, associate 82906.97
+FirstName534, LastName534, associate 100600.09
+FirstName535, LastName535, assistant 64412.66
+FirstName536, LastName536, full profesor 108164.59
+FirstName537, LastName537, associate 74604.96
+FirstName538, LastName538, full profesor 98081.88
+FirstName539, LastName539, assistant 77457.00
+FirstName540, LastName540, full profesor 87307.42
+FirstName541, LastName541, associate 71006.05
+FirstName542, LastName542, associate 86905.45
+FirstName543, LastName543, full profesor 122465.92
+FirstName544, LastName544, associate 84438.26
+FirstName545, LastName545, assistant 55360.66
+FirstName546, LastName546, full profesor 115347.08
+FirstName547, LastName547, full profesor 96328.52
+FirstName548, LastName548, associate 73735.33
+FirstName549, LastName549, full profesor 94624.30
+FirstName550, LastName550, assistant 75841.49
+FirstName551, LastName551, associate 106796.51
+FirstName552, LastName552, assistant 74086.15
+FirstName553, LastName553, associate 89588.73
+FirstName554, LastName554, full profesor 104300.90
+FirstName555, LastName555, full profesor 110804.58
+FirstName556, LastName556, assistant 55745.88
+FirstName557, LastName557, associate 108760.50
+FirstName558, LastName558, assistant 74852.95
+FirstName559, LastName559, full profesor 91464.29
+FirstName560, LastName560, assistant 66855.00
+FirstName561, LastName561, associate 99130.63
+FirstName562, LastName562, full profesor 85123.43
+FirstName563, LastName563, associate 87229.26
+FirstName564, LastName564, full profesor 88585.99
+FirstName565, LastName565, full profesor 79939.10
+FirstName566, LastName566, associate 91197.68
+FirstName567, LastName567, associate 87956.86
+FirstName568, LastName568, assistant 77201.88
+FirstName569, LastName569, full profesor 112919.81
+FirstName570, LastName570, full profesor 117247.96
+FirstName571, LastName571, assistant 56346.00
+FirstName572, LastName572, full profesor 107791.11
+FirstName573, LastName573, full profesor 84398.51
+FirstName574, LastName574, associate 74468.38
+FirstName575, LastName575, associate 75866.59
+FirstName576, LastName576, assistant 52765.21
+FirstName577, LastName577, associate 73840.02
+FirstName578, LastName578, associate 97257.78
+FirstName579, LastName579, full profesor 113067.39
+FirstName580, LastName580, assistant 50757.35
+FirstName581, LastName581, assistant 76991.94
+FirstName582, LastName582, assistant 78829.57
+FirstName583, LastName583, assistant 79848.75
+FirstName584, LastName584, assistant 68607.71
+FirstName585, LastName585, full profesor 93245.04
+FirstName586, LastName586, full profesor 96469.12
+FirstName587, LastName587, associate 90008.06
+FirstName588, LastName588, assistant 52849.87
+FirstName589, LastName589, full profesor 109698.72
+FirstName590, LastName590, full profesor 82019.09
+FirstName591, LastName591, associate 109326.46
+FirstName592, LastName592, associate 60923.34
+FirstName593, LastName593, assistant 56514.76
+FirstName594, LastName594, full profesor 102447.15
+FirstName595, LastName595, full profesor 95961.37
+FirstName596, LastName596, full profesor 84838.81
+FirstName597, LastName597, associate 63084.14
+FirstName598, LastName598, assistant 62243.96
+FirstName599, LastName599, associate 92350.26
+FirstName600, LastName600, full profesor 116952.28
+FirstName601, LastName601, associate 64112.52
+FirstName602, LastName602, full profesor 122359.92
+FirstName603, LastName603, full profesor 110885.58
+FirstName604, LastName604, full profesor 124254.47
+FirstName605, LastName605, assistant 68254.24
+FirstName606, LastName606, associate 77393.87
+FirstName607, LastName607, full profesor 108571.00
+FirstName608, LastName608, associate 102231.36
+FirstName609, LastName609, associate 61490.06
+FirstName610, LastName610, associate 60247.55
+FirstName611, LastName611, full profesor 81922.40
+FirstName612, LastName612, full profesor 98964.41
+FirstName613, LastName613, associate 109499.87
+FirstName614, LastName614, associate 96763.25
+FirstName615, LastName615, full profesor 126729.24
+FirstName616, LastName616, full profesor 101564.30
+FirstName617, LastName617, associate 97032.56
+FirstName618, LastName618, associate 95567.47
+FirstName619, LastName619, assistant 68346.56
+FirstName620, LastName620, associate 74203.24
+FirstName621, LastName621, full profesor 103486.43
+FirstName622, LastName622, assistant 78124.26
+FirstName623, LastName623, full profesor 108769.71
+FirstName624, LastName624, assistant 64418.37
+FirstName625, LastName625, associate 62754.01
+FirstName626, LastName626, associate 99811.11
+FirstName627, LastName627, full profesor 108250.05
+FirstName628, LastName628, full profesor 120931.11
+FirstName629, LastName629, associate 89717.02
+FirstName630, LastName630, assistant 72675.47
+FirstName631, LastName631, associate 101744.73
+FirstName632, LastName632, full profesor 114868.96
+FirstName633, LastName633, full profesor 75628.57
+FirstName634, LastName634, assistant 69905.47
+FirstName635, LastName635, full profesor 127424.92
+FirstName636, LastName636, full profesor 97215.54
+FirstName637, LastName637, full profesor 125384.81
+FirstName638, LastName638, assistant 59025.99
+FirstName639, LastName639, associate 94086.64
+FirstName640, LastName640, associate 76666.61
+FirstName641, LastName641, assistant 75245.05
+FirstName642, LastName642, assistant 53817.59
+FirstName643, LastName643, full profesor 81013.30
+FirstName644, LastName644, full profesor 82224.28
+FirstName645, LastName645, assistant 76593.51
+FirstName646, LastName646, associate 79327.52
+FirstName647, LastName647, assistant 67591.45
+FirstName648, LastName648, full profesor 126892.72
+FirstName649, LastName649, full profesor 98267.61
+FirstName650, LastName650, full profesor 75184.38
+FirstName651, LastName651, assistant 63830.65
+FirstName652, LastName652, full profesor 90604.38
+FirstName653, LastName653, assistant 72008.50
+FirstName654, LastName654, full profesor 126942.37
+FirstName655, LastName655, full profesor 82971.84
+FirstName656, LastName656, full profesor 110609.01
+FirstName657, LastName657, full profesor 112926.72
+FirstName658, LastName658, associate 108538.47
+FirstName659, LastName659, full profesor 88566.99
+FirstName660, LastName660, full profesor 99586.10
+FirstName661, LastName661, full profesor 120999.24
+FirstName662, LastName662, full profesor 127631.05
+FirstName663, LastName663, associate 98042.60
+FirstName664, LastName664, full profesor 78890.28
+FirstName665, LastName665, full profesor 102319.16
+FirstName666, LastName666, assistant 56066.81
+FirstName667, LastName667, full profesor 105349.34
+FirstName668, LastName668, assistant 53472.49
+FirstName669, LastName669, full profesor 116611.46
+FirstName670, LastName670, associate 80533.49
+FirstName671, LastName671, associate 90985.41
+FirstName672, LastName672, assistant 52882.14
+FirstName673, LastName673, assistant 63379.57
+FirstName674, LastName674, full profesor 89557.27
+FirstName675, LastName675, full profesor 123807.51
+FirstName676, LastName676, assistant 55286.11
+FirstName677, LastName677, assistant 64370.11
+FirstName678, LastName678, associate 98440.88
+FirstName679, LastName679, assistant 64894.16
+FirstName680, LastName680, assistant 71937.93
+FirstName681, LastName681, assistant 54962.52
+FirstName682, LastName682, full profesor 118394.72
+FirstName683, LastName683, associate 102527.76
+FirstName684, LastName684, full profesor 118136.17
+FirstName685, LastName685, associate 77892.78
+FirstName686, LastName686, full profesor 100476.18
+FirstName687, LastName687, assistant 76833.46
+FirstName688, LastName688, full profesor 109199.46
+FirstName689, LastName689, associate 87365.50
+FirstName690, LastName690, associate 80467.39
+FirstName691, LastName691, full profesor 95183.73
+FirstName692, LastName692, associate 66895.22
+FirstName693, LastName693, assistant 58117.75
+FirstName694, LastName694, associate 105302.45
+FirstName695, LastName695, full profesor 75899.40
+FirstName696, LastName696, assistant 71245.83
+FirstName697, LastName697, full profesor 99358.22
+FirstName698, LastName698, assistant 64165.36
+FirstName699, LastName699, associate 60785.23
+FirstName700, LastName700, associate 92194.18
+FirstName701, LastName701, associate 83930.42
+FirstName702, LastName702, associate 86049.93
+FirstName703, LastName703, assistant 52028.62
+FirstName704, LastName704, full profesor 104004.25
+FirstName705, LastName705, assistant 59422.82
+FirstName706, LastName706, assistant 50435.12
+FirstName707, LastName707, assistant 78071.27
+FirstName708, LastName708, assistant 79380.70
+FirstName709, LastName709, full profesor 113228.46
+FirstName710, LastName710, full profesor 91166.01
+FirstName711, LastName711, associate 79567.23
+FirstName712, LastName712, associate 92952.12
+FirstName713, LastName713, full profesor 93833.88
+FirstName714, LastName714, assistant 65360.87
+FirstName715, LastName715, full profesor 119794.38
+FirstName716, LastName716, associate 87385.15
+FirstName717, LastName717, associate 102983.19
+FirstName718, LastName718, associate 77154.63
+FirstName719, LastName719, full profesor 126457.72
+FirstName720, LastName720, full profesor 119904.73
+FirstName721, LastName721, full profesor 102210.91
+FirstName722, LastName722, assistant 76893.48
+FirstName723, LastName723, associate 82940.64
+FirstName724, LastName724, assistant 74876.58
+FirstName725, LastName725, associate 66024.90
+FirstName726, LastName726, associate 60444.11
+FirstName727, LastName727, full profesor 105392.93
+FirstName728, LastName728, assistant 52444.72
+FirstName729, LastName729, full profesor 77532.39
+FirstName730, LastName730, associate 77128.29
+FirstName731, LastName731, assistant 63431.48
+FirstName732, LastName732, full profesor 81922.04
+FirstName733, LastName733, assistant 65689.82
+FirstName734, LastName734, assistant 78895.40
+FirstName735, LastName735, full profesor 109653.27
+FirstName736, LastName736, full profesor 118156.26
+FirstName737, LastName737, full profesor 78271.72
+FirstName738, LastName738, full profesor 92870.50
+FirstName739, LastName739, associate 78342.38
+FirstName740, LastName740, full profesor 86059.37
+FirstName741, LastName741, associate 105283.11
+FirstName742, LastName742, assistant 75139.89
+FirstName743, LastName743, assistant 66631.17
+FirstName744, LastName744, assistant 65876.80
+FirstName745, LastName745, associate 76160.78
+FirstName746, LastName746, assistant 63311.19
+FirstName747, LastName747, full profesor 81906.22
+FirstName748, LastName748, assistant 59411.86
+FirstName749, LastName749, assistant 65095.46
+FirstName750, LastName750, associate 103701.99
+FirstName751, LastName751, assistant 65178.80
+FirstName752, LastName752, associate 103010.09
+FirstName753, LastName753, assistant 57330.17
+FirstName754, LastName754, assistant 65614.02
+FirstName755, LastName755, full profesor 122063.24
+FirstName756, LastName756, full profesor 83069.47
+FirstName757, LastName757, full profesor 116596.47
+FirstName758, LastName758, assistant 52653.90
+FirstName759, LastName759, associate 64332.07
+FirstName760, LastName760, full profesor 79271.50
+FirstName761, LastName761, associate 69995.84
+FirstName762, LastName762, assistant 63897.20
+FirstName763, LastName763, assistant 76770.23
+FirstName764, LastName764, assistant 53907.00
+FirstName765, LastName765, full profesor 120586.35
+FirstName766, LastName766, associate 83116.09
+FirstName767, LastName767, assistant 58371.39
+FirstName768, LastName768, assistant 70842.76
+FirstName769, LastName769, full profesor 121474.85
+FirstName770, LastName770, assistant 62036.74
+FirstName771, LastName771, full profesor 93524.86
+FirstName772, LastName772, associate 92967.32
+FirstName773, LastName773, full profesor 93244.96
+FirstName774, LastName774, full profesor 110609.25
+FirstName775, LastName775, full profesor 88085.28
+FirstName776, LastName776, assistant 51198.45
+FirstName777, LastName777, full profesor 123267.37
+FirstName778, LastName778, assistant 67669.67
+FirstName779, LastName779, assistant 71050.88
+FirstName780, LastName780, associate 95311.86
+FirstName781, LastName781, assistant 72622.57
+FirstName782, LastName782, assistant 70789.20
+FirstName783, LastName783, associate 80683.29
+FirstName784, LastName784, full profesor 102735.28
+FirstName785, LastName785, full profesor 116844.99
+FirstName786, LastName786, assistant 67405.32
+FirstName787, LastName787, full profesor 82563.07
+FirstName788, LastName788, associate 76348.41
+FirstName789, LastName789, assistant 53036.23
+FirstName790, LastName790, full profesor 91022.27
+FirstName791, LastName791, associate 85389.50
+FirstName792, LastName792, associate 106631.50
+FirstName793, LastName793, full profesor 124610.22
+FirstName794, LastName794, full profesor 84394.43
+FirstName795, LastName795, assistant 72261.37
+FirstName796, LastName796, full profesor 105952.07
+FirstName797, LastName797, full profesor 88194.20
+FirstName798, LastName798, full profesor 77407.05
+FirstName799, LastName799, full profesor 116821.76
+FirstName800, LastName800, full profesor 111293.24
+FirstName801, LastName801, associate 99439.06
+FirstName802, LastName802, associate 90605.81
+FirstName803, LastName803, associate 82552.39
+FirstName804, LastName804, assistant 57072.98
+FirstName805, LastName805, full profesor 99772.13
+FirstName806, LastName806, assistant 57364.20
+FirstName807, LastName807, associate 63485.70
+FirstName808, LastName808, full profesor 113031.72
+FirstName809, LastName809, assistant 67469.02
+FirstName810, LastName810, full profesor 107601.71
+FirstName811, LastName811, assistant 50346.86
+FirstName812, LastName812, full profesor 82668.00
+FirstName813, LastName813, assistant 70572.15
+FirstName814, LastName814, assistant 70702.18
+FirstName815, LastName815, full profesor 99405.72
+FirstName816, LastName816, full profesor 104069.96
+FirstName817, LastName817, full profesor 111706.62
+FirstName818, LastName818, assistant 64724.08
+FirstName819, LastName819, assistant 66105.96
+FirstName820, LastName820, associate 66166.53
+FirstName821, LastName821, associate 61889.69
+FirstName822, LastName822, assistant 79814.03
+FirstName823, LastName823, associate 74185.95
+FirstName824, LastName824, full profesor 82559.38
+FirstName825, LastName825, associate 92992.99
+FirstName826, LastName826, associate 79751.52
+FirstName827, LastName827, assistant 54305.98
+FirstName828, LastName828, full profesor 106496.59
+FirstName829, LastName829, full profesor 125092.41
+FirstName830, LastName830, full profesor 126653.78
+FirstName831, LastName831, associate 109994.54
+FirstName832, LastName832, full profesor 106022.69
+FirstName833, LastName833, assistant 61120.14
+FirstName834, LastName834, assistant 61878.44
+FirstName835, LastName835, assistant 55122.83
+FirstName836, LastName836, associate 99103.01
+FirstName837, LastName837, assistant 62036.27
+FirstName838, LastName838, full profesor 93599.09
+FirstName839, LastName839, full profesor 100246.85
+FirstName840, LastName840, assistant 70770.64
+FirstName841, LastName841, full profesor 87501.35
+FirstName842, LastName842, full profesor 110537.96
+FirstName843, LastName843, associate 84069.42
+FirstName844, LastName844, assistant 71723.70
+FirstName845, LastName845, full profesor 96202.33
+FirstName846, LastName846, assistant 77450.49
+FirstName847, LastName847, associate 98215.55
+FirstName848, LastName848, full profesor 110624.52
+FirstName849, LastName849, associate 92602.92
+FirstName850, LastName850, full profesor 112969.60
+FirstName851, LastName851, full profesor 93983.91
+FirstName852, LastName852, associate 95619.11
+FirstName853, LastName853, full profesor 119778.11
+FirstName854, LastName854, full profesor 113953.11
+FirstName855, LastName855, full profesor 122676.23
+FirstName856, LastName856, full profesor 93958.54
+FirstName857, LastName857, associate 104870.40
+FirstName858, LastName858, associate 88247.08
+FirstName859, LastName859, full profesor 97219.92
+FirstName860, LastName860, full profesor 100238.50
+FirstName861, LastName861, associate 95656.37
+FirstName862, LastName862, full profesor 102099.03
+FirstName863, LastName863, assistant 65286.56
+FirstName864, LastName864, assistant 70378.49
+FirstName865, LastName865, assistant 75151.92
+FirstName866, LastName866, assistant 55008.37
+FirstName867, LastName867, full profesor 87056.75
+FirstName868, LastName868, full profesor 76439.25
+FirstName869, LastName869, full profesor 96577.91
+FirstName870, LastName870, assistant 71623.72
+FirstName871, LastName871, assistant 50087.50
+FirstName872, LastName872, full profesor 122610.42
+FirstName873, LastName873, assistant 56660.62
+FirstName874, LastName874, associate 79634.66
+FirstName875, LastName875, associate 105043.80
+FirstName876, LastName876, assistant 55217.80
+FirstName877, LastName877, full profesor 94853.76
+FirstName878, LastName878, assistant 64495.23
+FirstName879, LastName879, associate 76642.54
+FirstName880, LastName880, associate 80882.04
+FirstName881, LastName881, full profesor 123059.30
+FirstName882, LastName882, assistant 66376.21
+FirstName883, LastName883, assistant 59571.51
+FirstName884, LastName884, assistant 68001.84
+FirstName885, LastName885, assistant 63503.26
+FirstName886, LastName886, associate 109469.34
+FirstName887, LastName887, associate 65021.55
+FirstName888, LastName888, assistant 58238.39
+FirstName889, LastName889, assistant 60833.03
+FirstName890, LastName890, associate 85758.43
+FirstName891, LastName891, full profesor 96850.86
+FirstName892, LastName892, full profesor 106698.39
+FirstName893, LastName893, full profesor 110311.19
+FirstName894, LastName894, assistant 52026.53
+FirstName895, LastName895, full profesor 118665.22
+FirstName896, LastName896, associate 88589.87
+FirstName897, LastName897, assistant 68412.74
+FirstName898, LastName898, full profesor 87182.50
+FirstName899, LastName899, assistant 79638.80
+FirstName900, LastName900, full profesor 101325.40
+FirstName901, LastName901, full profesor 80878.08
+FirstName902, LastName902, full profesor 85118.27
+FirstName903, LastName903, associate 104626.39
+FirstName904, LastName904, assistant 66659.04
+FirstName905, LastName905, associate 60077.07
+FirstName906, LastName906, assistant 75040.89
+FirstName907, LastName907, assistant 74887.90
+FirstName908, LastName908, full profesor 114139.98
+FirstName909, LastName909, full profesor 127043.19
+FirstName910, LastName910, associate 84098.10
+FirstName911, LastName911, associate 75124.89
+FirstName912, LastName912, full profesor 82784.64
+FirstName913, LastName913, associate 78443.59
+FirstName914, LastName914, assistant 57788.63
+FirstName915, LastName915, full profesor 79757.87
+FirstName916, LastName916, associate 86398.76
+FirstName917, LastName917, assistant 54307.72
+FirstName918, LastName918, full profesor 93723.70
+FirstName919, LastName919, associate 91251.67
+FirstName920, LastName920, associate 91067.55
+FirstName921, LastName921, associate 86312.29
+FirstName922, LastName922, full profesor 96569.52
+FirstName923, LastName923, associate 108512.47
+FirstName924, LastName924, associate 72107.19
+FirstName925, LastName925, assistant 56662.97
+FirstName926, LastName926, associate 107596.37
+FirstName927, LastName927, full profesor 116593.30
+FirstName928, LastName928, full profesor 75460.40
+FirstName929, LastName929, associate 94950.02
+FirstName930, LastName930, associate 92219.18
+FirstName931, LastName931, assistant 78289.63
+FirstName932, LastName932, assistant 60162.40
+FirstName933, LastName933, full profesor 81002.26
+FirstName934, LastName934, assistant 62603.56
+FirstName935, LastName935, assistant 59577.34
+FirstName936, LastName936, full profesor 104275.78
+FirstName937, LastName937, associate 81646.62
+FirstName938, LastName938, assistant 57179.24
+FirstName939, LastName939, assistant 50095.06
+FirstName940, LastName940, assistant 79259.71
+FirstName941, LastName941, full profesor 113942.70
+FirstName942, LastName942, full profesor 123235.18
+FirstName943, LastName943, full profesor 98552.52
+FirstName944, LastName944, assistant 73288.83
+FirstName945, LastName945, full profesor 100137.05
+FirstName946, LastName946, associate 98771.87
+FirstName947, LastName947, assistant 66596.74
+FirstName948, LastName948, assistant 61390.24
+FirstName949, LastName949, associate 93841.11
+FirstName950, LastName950, associate 65971.57
+FirstName951, LastName951, full profesor 90649.20
+FirstName952, LastName952, full profesor 127760.06
+FirstName953, LastName953, full profesor 75175.54
+FirstName954, LastName954, associate 88025.12
+FirstName955, LastName955, associate 77444.38
+FirstName956, LastName956, full profesor 110306.25
+FirstName957, LastName957, full profesor 125263.03
+FirstName958, LastName958, associate 73268.26
+FirstName959, LastName959, associate 65239.22
+FirstName960, LastName960, associate 103126.92
+FirstName961, LastName961, assistant 52489.28
+FirstName962, LastName962, assistant 56449.41
+FirstName963, LastName963, associate 61556.03
+FirstName964, LastName964, full profesor 97043.82
+FirstName965, LastName965, assistant 57523.65
+FirstName966, LastName966, associate 106473.81
+FirstName967, LastName967, full profesor 123459.90
+FirstName968, LastName968, full profesor 124550.79
+FirstName969, LastName969, full profesor 87177.33
+FirstName970, LastName970, associate 62250.06
+FirstName971, LastName971, full profesor 115681.43
+FirstName972, LastName972, full profesor 125854.24
+FirstName973, LastName973, assistant 75566.26
+FirstName974, LastName974, assistant 62551.46
+FirstName975, LastName975, assistant 64194.32
+FirstName976, LastName976, assistant 75157.44
+FirstName977, LastName977, assistant 54434.16
+FirstName978, LastName978, full profesor 112667.84
+FirstName979, LastName979, full profesor 91978.63
+FirstName980, LastName980, associate 64340.75
+FirstName981, LastName981, associate 101125.90
+FirstName982, LastName982, assistant 63364.15
+FirstName983, LastName983, assistant 65976.99
+FirstName984, LastName984, full profesor 110704.06
+FirstName985, LastName985, associate 107183.01
+FirstName986, LastName986, associate 85450.51
+FirstName987, LastName987, assistant 66342.69
+FirstName988, LastName988, full profesor 115480.12
+FirstName989, LastName989, associate 85995.80
+FirstName990, LastName990, full profesor 122581.05
+FirstName991, LastName991, full profesor 116749.25
+FirstName992, LastName992, assistant 50622.33
+FirstName993, LastName993, assistant 54423.29
+FirstName994, LastName994, full profesor 92248.52
+FirstName995, LastName995, assistant 52588.04
+FirstName996, LastName996, assistant 78812.95
+FirstName997, LastName997, associate 63858.82
+FirstName998, LastName998, assistant 77794.99
+FirstName999, LastName999, assistant 79665.47
+FirstName1000, LastName1000, associate 60251.55

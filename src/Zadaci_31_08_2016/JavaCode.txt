@@ -1,0 +1,38 @@
+public class ReformatJavaSourceCode 
+{ 
+	    
+	 public static void main(String[] args) throws IOException 
+	 {
+		 
+	 File file = new File("JavaCode.txt");
+	      
+		 if (!file.exists())
+		  {
+				System.out.println("Fajl ne postoji");
+			}
+			else
+			 {
+				
+				String allText = "";		//string koji ce sadrzavat cijeli java kod   
+				
+				Scanner reader = new Scanner(file);   //Kreiramo scanner objekt za citanje sadrzaja file-a
+				
+				while(reader.hasNext()) 
+				{
+					
+					allText +=reader.nextLine()+ "\n";	//spremanje cijele linije koda sa prebacivanjem u novi red 
+				}
+				reader.close();
+						
+				allText = allText.replaceAll("\\s*\\ {", " {");	//pronalazak next-line brace style
+				allText = allText.replaceAll("\\)\\s*\\ {", ") {");	//zamjena sa end-of-line brace style 
+				
+				//Kreiramo PrintWriter objekt za unos teksta u fajl ponovo
+				PrintWriter writer = new PrintWriter(file);
+					writer.append(allText);
+					writer.close();
+				System.out.println("Zavrseno");
+				
+			}
+		 }
+	}
