@@ -85,6 +85,12 @@ public class AddPackageStatement {
 
 	// Dodajemo sve fajlove u arrayList tipa File koji se nalaze u folderu 
 	public static ArrayList<File> getFiles(ArrayList<File> dir) {
+		
+		//provjera direktorija 
+		if (dir.get(0).isDirectory() == false) {
+			System.exit(0);
+		}
+		
 		ArrayList<File> list = new ArrayList<>(Arrays.asList(dir.get(0).listFiles()));
 		
 		//Metoda koja brise sve fajlove koje nemaju ekstenziju .java
