@@ -16,16 +16,24 @@ public class MyStackTest {
 	        
 	        //Kreiranje stack2 objekta kloniranjem stack1
 	        MyStack stack2 = (MyStack) stack1.clone();
-	       
+	        
+	        //printanje ArrayListe
+	        System.out.println("Stack 1: "+stack1.toString());
+		    System.out.println("Stack 2: "+stack2.toString());
+	        
 	        // printanje velicina stack1 objekta i stack2 objekta
 	        System.out.println("stack1 size = " + stack1.getSize());
 	        System.out.println("stack2 size = " + stack2.getSize());
 	        
-	        stack1.pop();	
-	        
+	        stack1.pop();	//metoda za uklanjanje iz liste
 	       
+	        //ponovno printanje ArrayListe nakon uklanjanja
+	        System.out.println("\nStack 1: "+stack1.toString());
+		    System.out.println("Stack 2: "+stack2.toString());
+	        
+	      
 	        // printanje velicina stack1 objekta i stack2 objekta
-	        System.out.println("\nstack1 size = " + stack1.getSize());
+	        System.out.println("stack1 size = " + stack1.getSize());
 	        System.out.println("stack2 size = " + stack2.getSize());
 
 	    }

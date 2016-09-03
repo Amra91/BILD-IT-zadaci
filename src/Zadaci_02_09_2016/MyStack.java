@@ -13,19 +13,21 @@ public class MyStack implements Cloneable {
 	public boolean isEmpty() { 
 		return list.isEmpty(); 
 		} 
-	//metoda vraca velicinu ArrayListe
+	//metoda koja vraca velicinu ArrayListe
 	public int getSize() { 
 		return list.size(); 
 		}
+	//metoda koja vraca zadnji unesen broja
 	public Object peek() { 
 		return list.get(getSize() - 1); 
 		}
+	//metoda koja brise iz arrayListe
 	 public Object pop() { 
 		 Object o = list.get(getSize() - 1); 
 		 list.remove(getSize() - 1); 
 		 return o; 
 		 } 
-	 //dodavanje u listu 
+	 //metoda koja dodaje novi elemenat u listu 
 	 public void push(Object o) { 
 		 list.add(o);
 		 } 
@@ -35,7 +37,8 @@ public class MyStack implements Cloneable {
 		 } 
 	 
 	 @Override
-	    protected Object clone() throws CloneNotSupportedException  {
+	 //interface
+	  protected Object clone() throws CloneNotSupportedException  {
 	       
 		 	MyStack myStack = null;						//Kreiranje varijable tipa MyStack
 		 	

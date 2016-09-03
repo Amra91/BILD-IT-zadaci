@@ -17,14 +17,14 @@ public class SquareTest {
 	  //printanje rezultata
         for (int i = 0; i < geoOblici.length; i++) {
 
-	            System.out.println("Oblik " + i + ", povrsina = " + geoOblici[i].getArea());
+	         System.out.println("Oblik " + i + ", povrsina = " + geoOblici[i].getArea());
 	            if (geoOblici[i] instanceof Colorable) {
 	                System.out.println(((Colorable)geoOblici[i]).howToColor());
 	            }
 	            else{
 	            	System.out.println(" Nije moguce obojiti");
 	            }
-	            System.out.println();
+	          System.out.println();
 	        }
 
 	    }
