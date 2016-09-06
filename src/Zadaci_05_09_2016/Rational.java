@@ -5,6 +5,10 @@ public class Rational extends Number implements Comparable<Rational> {
 
 	// Data fields 
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int numerator = 0;
 	private int denominator = 1;
 	private long[] r = new long[2]; 	// pod indeksom 0 je brojnik, pod indexom 1 je nazivnik

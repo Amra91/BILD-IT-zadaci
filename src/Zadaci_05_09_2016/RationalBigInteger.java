@@ -2,8 +2,9 @@ package Zadaci_05_09_2016;
 
 import java.math.BigInteger;
 
-public class RationalBigInteger extends Number implements Comparable {
-	 
+public class RationalBigInteger extends Number implements Comparable<Object> {
+	
+	private static final long serialVersionUID = 1L;
 	// Data fields
 	  BigInteger numerator = BigInteger.ZERO;
 	  BigInteger denominator = BigInteger.ONE;
